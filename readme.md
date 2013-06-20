@@ -1,6 +1,8 @@
 Rocket Mega Shield
 ==================
 
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/board_v1.png)
+
 These are the Eagle files for an Arduino Mega shield with sensors and features targeting rocketry enthusiasts.
 
 These files are released under the [Creative Commons Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/3.0/) license. 
