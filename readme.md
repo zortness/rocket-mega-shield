@@ -43,4 +43,5 @@ Sensors
 
 Versions
 --------
-* RocketDuino V1 - Initial prototype board, June 2013
+* RocketDuino V1 - Initial prototype board, June 2013 
+(download [zip](https://github.com/zortness/rocket-mega-shield/archive/v1.zip) or [tar.gz](https://github.com/zortness/rocket-mega-shield/archive/v1.tar.gz))
