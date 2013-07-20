@@ -13,6 +13,9 @@ and [Sparkfun Eagle Libraries](https://github.com/sparkfun/SparkFun-Eagle-Librar
 
 My library of modified parts will be available shortly (just cleaning it up).
 
+![protov1a](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_1.jpg)
+![protov1b](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_2.jpg)
+
 
 Concept
 --------
