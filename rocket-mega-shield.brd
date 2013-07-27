@@ -1893,16 +1893,16 @@ Please make sure your boards conform to these design rules.</description>
 <element name="RESET" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="1101NE" x="30.1" y="3.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.6" y="6.55" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="FIRST" library="SparkFun-DiscreteSemi" package="POWERPAK1212-8" value="MOSFET-NCHANNELSI7112DN" x="2.5" y="-2">
+<element name="FIRST" library="SparkFun-DiscreteSemi" package="POWERPAK1212-8" value="SI7112DN" x="2.5" y="-2">
 <attribute name="PROD_ID" value="TRANS-11055" x="2.5" y="-2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SECOND" library="SparkFun-DiscreteSemi" package="POWERPAK1212-8" value="MOSFET-NCHANNELSI7112DN" x="2.5" y="-5.5">
+<element name="SECOND" library="SparkFun-DiscreteSemi" package="POWERPAK1212-8" value="SI7112DN" x="2.5" y="-5.5">
 <attribute name="PROD_ID" value="TRANS-11055" x="2.5" y="-5.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="THIRD" library="SparkFun-DiscreteSemi" package="POWERPAK1212-8" value="MOSFET-NCHANNELSI7112DN" x="2.5" y="-9">
+<element name="THIRD" library="SparkFun-DiscreteSemi" package="POWERPAK1212-8" value="SI7112DN" x="2.5" y="-9">
 <attribute name="PROD_ID" value="TRANS-11055" x="2.5" y="-9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="FOURTH" library="SparkFun-DiscreteSemi" package="POWERPAK1212-8" value="MOSFET-NCHANNELSI7112DN" x="2.5" y="-12.5">
+<element name="FOURTH" library="SparkFun-DiscreteSemi" package="POWERPAK1212-8" value="SI7112DN" x="2.5" y="-12.5">
 <attribute name="PROD_ID" value="TRANS-11055" x="2.5" y="-12.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="200GACCEL" library="zortness" package="LFCSP-16" value="ADXL377" x="-2.5" y="-10.5"/>
@@ -1914,10 +1914,22 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C4" library="adafruit" package="C1206" value="100uF" x="-3" y="-51"/>
 <element name="C1" library="adafruit" package="C1206" value="100uF" x="-3" y="-57"/>
 <element name="PYRO" library="zortness" package="1X6TERMINALBLOCK" value="1X6TERMINALBLOCK" x="2.5" y="-63.5"/>
-<element name="R1" library="adafruit" package="R1206" value="10k" x="-3" y="-70"/>
-<element name="R6" library="adafruit" package="R1206" value="10k" x="-3" y="-76"/>
-<element name="R7" library="adafruit" package="R1206" value="10k" x="-3" y="-82"/>
-<element name="R8" library="adafruit" package="R1206" value="10k" x="-3" y="-88"/>
+<element name="R1" library="adafruit" package="R1206" value="10M" x="-3" y="-70"/>
+<element name="R6" library="adafruit" package="R1206" value="10M" x="-3" y="-76"/>
+<element name="R7" library="adafruit" package="R1206" value="10M" x="-3" y="-82"/>
+<element name="R8" library="adafruit" package="R1206" value="10M" x="-3" y="-88"/>
+<element name="E1" library="SparkFun-LED" package="LED-1206" value="" x="-3" y="-93"/>
+<element name="R9" library="adafruit" package="R1206" value="330" x="-3" y="-97"/>
+<element name="E2" library="SparkFun-LED" package="LED-1206" value="" x="-3" y="-102"/>
+<element name="R16" library="adafruit" package="R1206" value="330" x="-3" y="-106"/>
+<element name="E3" library="SparkFun-LED" package="LED-1206" value="" x="-3" y="-111"/>
+<element name="R17" library="adafruit" package="R1206" value="330" x="-3" y="-115"/>
+<element name="E4" library="SparkFun-LED" package="LED-1206" value="" x="-3" y="-120"/>
+<element name="R18" library="adafruit" package="R1206" value="330" x="-3" y="-124"/>
+<element name="R19" library="adafruit" package="R1206" value="500k" x="-3" y="-130"/>
+<element name="R20" library="adafruit" package="R1206" value="500k" x="-3" y="-136"/>
+<element name="R21" library="adafruit" package="R1206" value="500k" x="-3" y="-142"/>
+<element name="R22" library="adafruit" package="R1206" value="500k" x="-3" y="-148"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2052,6 +2064,14 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="FIRST" pad="S3"/>
 <contactref element="FIRST" pad="S1"/>
 <contactref element="FIRST" pad="S2"/>
+<contactref element="R8" pad="1"/>
+<contactref element="R7" pad="1"/>
+<contactref element="R6" pad="1"/>
+<contactref element="R1" pad="1"/>
+<contactref element="R9" pad="2"/>
+<contactref element="R16" pad="2"/>
+<contactref element="R17" pad="2"/>
+<contactref element="R18" pad="2"/>
 <wire x1="94.9" y1="33.85" x2="97" y2="36" width="0" layer="19" extent="1-1"/>
 <wire x1="94.1" y1="33.85" x2="94.9" y2="33.85" width="0" layer="19" extent="1-1"/>
 <wire x1="97" y1="32.35" x2="94.9" y2="33.85" width="0" layer="19" extent="1-1"/>
@@ -2168,6 +2188,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="-1.6" y1="-35" x2="-1.6" y2="-29" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.6" y1="-51" x2="-1.6" y2="-35" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.6" y1="-57" x2="-1.6" y2="-51" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.422" y1="-70" x2="-1.6" y2="-57" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.422" y1="-76" x2="-4.422" y2="-70" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.422" y1="-82" x2="-4.422" y2="-76" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.422" y1="-88" x2="-4.422" y2="-82" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.578" y1="-97" x2="-4.422" y2="-88" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.578" y1="-106" x2="-1.578" y2="-97" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.578" y1="-115" x2="-1.578" y2="-106" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.578" y1="-124" x2="-1.578" y2="-115" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC3" class="1">
 <contactref element="3.3VREG" pad="4"/>
@@ -3032,18 +3060,18 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D1" pad="C"/>
 <contactref element="C2" pad="1"/>
 <contactref element="3.3VREG" pad="3"/>
-<contactref element="PYRO" pad="1"/>
-<contactref element="PYRO" pad="2"/>
-<wire x1="-1.31" y1="-63.5" x2="-3.85" y2="-63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-40.5" x2="-1.31" y2="-63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="15.75" y1="6" x2="0" y2="-40.5" width="0" layer="19" extent="1-1"/>
-<wire x1="46.5824" y1="17.6102" x2="46" y2="19.25" width="0" layer="19" extent="1-16"/>
+<wire x1="46" y1="19.25" x2="46.5824" y2="17.6102" width="0" layer="19" extent="1-16"/>
 <wire x1="42.71" y1="18.31" x2="46" y2="19.25" width="0" layer="19" extent="1-16"/>
 <wire x1="54.61" y1="3.81" x2="53.26" y2="13.52" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-40.5" x2="15.75" y2="6" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
+<signal name="BATT+">
 <contactref element="EXTBATT" pad="2"/>
 <contactref element="D1" pad="A"/>
+<contactref element="PYRO" pad="2"/>
+<contactref element="PYRO" pad="1"/>
+<wire x1="-1.31" y1="-63.5" x2="-3.85" y2="-63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-4" y1="-40.5" x2="-3.85" y2="-63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="15.61" y1="5.98" x2="-4" y2="-40.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
@@ -3053,6 +3081,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="FIRST" pad="D3"/>
 <contactref element="FIRST" pad="D1"/>
 <contactref element="PYRO" pad="3"/>
+<contactref element="R22" pad="2"/>
+<wire x1="1.23" y1="-63.5" x2="-1.578" y2="-148" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-2.9906" x2="1.23" y2="-63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-2.3302" x2="4.0494" y2="-2.9906" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-1.6698" x2="4.0494" y2="-2.3302" width="0" layer="19" extent="1-1"/>
@@ -3066,6 +3096,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SECOND" pad="D3"/>
 <contactref element="SECOND" pad="D1"/>
 <contactref element="PYRO" pad="4"/>
+<contactref element="R21" pad="2"/>
+<wire x1="3.77" y1="-63.5" x2="-1.578" y2="-142" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-6.4906" x2="3.77" y2="-63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-5.8302" x2="4.0494" y2="-6.4906" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-5.1698" x2="4.0494" y2="-5.8302" width="0" layer="19" extent="1-1"/>
@@ -3079,6 +3111,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="THIRD" pad="D2"/>
 <contactref element="THIRD" pad="D3"/>
 <contactref element="THIRD" pad="D1"/>
+<contactref element="R20" pad="2"/>
+<wire x1="6.31" y1="-63.5" x2="-1.578" y2="-136" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-9.9906" x2="6.31" y2="-63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-9.3302" x2="4.0494" y2="-9.9906" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-8.6698" x2="4.0494" y2="-9.3302" width="0" layer="19" extent="1-1"/>
@@ -3092,11 +3126,73 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="FOURTH" pad="D2"/>
 <contactref element="FOURTH" pad="D3"/>
 <contactref element="FOURTH" pad="D1"/>
+<contactref element="R19" pad="2"/>
+<wire x1="8.85" y1="-63.5" x2="-1.578" y2="-130" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-13.4906" x2="8.85" y2="-63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-12.8302" x2="4.0494" y2="-13.4906" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-12.1698" x2="4.0494" y2="-12.8302" width="0" layer="19" extent="1-1"/>
 <wire x1="4.0494" y1="-11.5094" x2="4.0494" y2="-12.1698" width="0" layer="19" extent="1-1"/>
 <wire x1="3.0842" y1="-12.5" x2="4.0494" y2="-12.8302" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MOSFET2">
+<contactref element="SECOND" pad="G"/>
+<contactref element="R6" pad="2"/>
+<contactref element="E3" pad="A"/>
+<wire x1="-1.578" y1="-76" x2="-4.5" y2="-111" width="0" layer="19" extent="1-1"/>
+<wire x1="1.0776" y1="-6.4906" x2="-1.578" y2="-76" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MOSFET1">
+<contactref element="FIRST" pad="G"/>
+<contactref element="R1" pad="2"/>
+<contactref element="E4" pad="A"/>
+<wire x1="-1.578" y1="-70" x2="-4.5" y2="-120" width="0" layer="19" extent="1-1"/>
+<wire x1="1.0776" y1="-2.9906" x2="-1.578" y2="-70" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MOSFET3">
+<contactref element="THIRD" pad="G"/>
+<contactref element="R7" pad="2"/>
+<contactref element="E2" pad="A"/>
+<wire x1="-1.578" y1="-82" x2="-4.5" y2="-102" width="0" layer="19" extent="1-1"/>
+<wire x1="1.0776" y1="-9.9906" x2="-1.578" y2="-82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MOSFET4">
+<contactref element="FOURTH" pad="G"/>
+<contactref element="R8" pad="2"/>
+<contactref element="E1" pad="A"/>
+<wire x1="-1.578" y1="-88" x2="-4.5" y2="-93" width="0" layer="19" extent="1-1"/>
+<wire x1="1.0776" y1="-13.4906" x2="-1.578" y2="-88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$29">
+<contactref element="E1" pad="C"/>
+<contactref element="R9" pad="1"/>
+<wire x1="-1.5" y1="-93" x2="-4.422" y2="-97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$30">
+<contactref element="E2" pad="C"/>
+<contactref element="R16" pad="1"/>
+<wire x1="-1.5" y1="-102" x2="-4.422" y2="-106" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="E3" pad="C"/>
+<contactref element="R17" pad="1"/>
+<wire x1="-1.5" y1="-111" x2="-4.422" y2="-115" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$32">
+<contactref element="E4" pad="C"/>
+<contactref element="R18" pad="1"/>
+<wire x1="-1.5" y1="-120" x2="-4.422" y2="-124" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$33">
+<contactref element="R19" pad="1"/>
+</signal>
+<signal name="N$34">
+<contactref element="R20" pad="1"/>
+</signal>
+<signal name="N$35">
+<contactref element="R21" pad="1"/>
+</signal>
+<signal name="N$36">
+<contactref element="R22" pad="1"/>
 </signal>
 </signals>
 </board>
