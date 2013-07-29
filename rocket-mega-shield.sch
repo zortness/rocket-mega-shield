@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -53,6 +53,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -86,8 +87,12 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -9308,7 +9313,7 @@ VIN Max: 20V&lt;br/&gt;</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="pwr" width="0.254" drill="0">
+<class number="1" name="pwr" width="0.3048" drill="0">
 </class>
 </classes>
 <parts>
@@ -9366,7 +9371,6 @@ VIN Max: 20V&lt;br/&gt;</description>
 <part name="FIX" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="GPSSELECT" library="SparkFun-Electromechanical" deviceset="AYZ0202" device=""/>
 <part name="C21" library="adafruit" deviceset="C-US" device="C1206" value="10uF"/>
 <part name="C22" library="adafruit" deviceset="C-US" device="C1206" value="0.1uF"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
@@ -9383,13 +9387,11 @@ VIN Max: 20V&lt;br/&gt;</description>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R14" library="adafruit" deviceset="R-US_" device="R1206" value="1k"/>
-<part name="SDCONV" library="SparkFun-DigitalIC" deviceset="HEX_CONVERTER" device="" value="M74HC4050M"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
-<part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="SDACT" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
-<part name="SERCONV" library="SparkFun-DigitalIC" deviceset="HEX_CONVERTER" device="" value="M74HC4050M"/>
+<part name="CONV" library="SparkFun-DigitalIC" deviceset="HEX_CONVERTER" device="" value="M74HC4050M"/>
 <part name="RESET" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="-SMD-1101NE" value="1101NE"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="FIRST" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SI7820DN" value="SI7112DN"/>
@@ -9406,7 +9408,7 @@ VIN Max: 20V&lt;br/&gt;</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="C26" library="adafruit" deviceset="C-US" device="C1206" value="0.01uF"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA-ALT"/>
-<part name="C4" library="adafruit" deviceset="C-US" device="C1206" value="100uF"/>
+<part name="C4" library="adafruit" deviceset="C-US" device="C1210" value="220uF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="adafruit" deviceset="C-US" device="C1206" value="100uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -9423,16 +9425,16 @@ VIN Max: 20V&lt;br/&gt;</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="E1" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="E4" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R9" library="adafruit" deviceset="R-US_" device="R1206" value="330"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
-<part name="E2" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="E3" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R1206" value="330"/>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
-<part name="E3" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="E2" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R17" library="adafruit" deviceset="R-US_" device="R1206" value="330"/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
-<part name="E4" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="E1" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R18" library="adafruit" deviceset="R-US_" device="R1206" value="330"/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="R19" library="adafruit" deviceset="R-US_" device="R1206" value="500k"/>
@@ -9489,7 +9491,7 @@ VIN Max: 20V&lt;br/&gt;</description>
 <wire x1="-7.62" y1="-2.54" x2="55.88" y2="-2.54" width="0.1524" layer="97"/>
 <wire x1="55.88" y1="-2.54" x2="55.88" y2="35.56" width="0.1524" layer="97"/>
 <wire x1="55.88" y1="35.56" x2="-7.62" y2="35.56" width="0.1524" layer="97"/>
-<text x="-5.08" y="33.02" size="1.778" layer="97">Serial Level Shift</text>
+<text x="-5.08" y="33.02" size="1.778" layer="97">Unidirectional Logic Level Shifter</text>
 <wire x1="-101.6" y1="-40.64" x2="-101.6" y2="-96.52" width="0.1524" layer="97"/>
 <wire x1="-101.6" y1="-96.52" x2="-12.7" y2="-96.52" width="0.1524" layer="97"/>
 <wire x1="-12.7" y1="-96.52" x2="-12.7" y2="-40.64" width="0.1524" layer="97"/>
@@ -9562,7 +9564,6 @@ VIN Max: 20V&lt;br/&gt;</description>
 <instance part="FIX" gate="G$1" x="83.82" y="22.86"/>
 <instance part="GND35" gate="1" x="83.82" y="5.08"/>
 <instance part="GND36" gate="1" x="73.66" y="2.54"/>
-<instance part="GPSSELECT" gate="G$1" x="101.6" y="0" rot="R270"/>
 <instance part="C21" gate="G$1" x="-83.82" y="-55.88" rot="R180"/>
 <instance part="C22" gate="G$1" x="-71.12" y="-55.88" rot="R180"/>
 <instance part="GND39" gate="1" x="187.96" y="86.36" rot="R180"/>
@@ -9579,13 +9580,11 @@ VIN Max: 20V&lt;br/&gt;</description>
 <instance part="GND45" gate="1" x="43.18" y="-73.66"/>
 <instance part="GND15" gate="1" x="55.88" y="-76.2"/>
 <instance part="R14" gate="G$1" x="27.94" y="101.6"/>
-<instance part="SDCONV" gate="G$1" x="20.32" y="-53.34"/>
 <instance part="GND52" gate="1" x="48.26" y="-35.56" rot="R270"/>
-<instance part="GND53" gate="1" x="30.48" y="-40.64" rot="R180"/>
 <instance part="SDACT" gate="G$1" x="38.1" y="-35.56" rot="R180"/>
 <instance part="R15" gate="G$1" x="38.1" y="-43.18" rot="R90"/>
 <instance part="GND54" gate="1" x="38.1" y="-27.94" rot="R180"/>
-<instance part="SERCONV" gate="G$1" x="20.32" y="15.24"/>
+<instance part="CONV" gate="G$1" x="20.32" y="15.24"/>
 <instance part="RESET" gate="G$1" x="-96.52" y="43.18" rot="R270"/>
 <instance part="GND37" gate="1" x="-96.52" y="35.56"/>
 <instance part="FIRST" gate="G$1" x="195.58" y="-132.08" rot="R180"/>
@@ -9619,16 +9618,16 @@ VIN Max: 20V&lt;br/&gt;</description>
 <instance part="GND14" gate="1" x="203.2" y="-57.15" rot="R180"/>
 <instance part="GND20" gate="1" x="201.93" y="-88.9" rot="R180"/>
 <instance part="GND21" gate="1" x="203.2" y="-119.38" rot="R180"/>
-<instance part="E1" gate="G$1" x="215.9" y="-43.18" rot="R90"/>
+<instance part="E4" gate="G$1" x="215.9" y="-43.18" rot="R90"/>
 <instance part="R9" gate="G$1" x="226.06" y="-43.18"/>
 <instance part="GND38" gate="1" x="233.68" y="-43.18" rot="R90"/>
-<instance part="E2" gate="G$1" x="213.36" y="-69.85" rot="R90"/>
+<instance part="E3" gate="G$1" x="213.36" y="-69.85" rot="R90"/>
 <instance part="R16" gate="G$1" x="220.98" y="-64.77" rot="R90"/>
 <instance part="GND55" gate="1" x="220.98" y="-57.15" rot="R180"/>
-<instance part="E3" gate="G$1" x="212.09" y="-101.6" rot="R90"/>
+<instance part="E2" gate="G$1" x="212.09" y="-101.6" rot="R90"/>
 <instance part="R17" gate="G$1" x="219.71" y="-96.52" rot="R90"/>
 <instance part="GND56" gate="1" x="219.71" y="-88.9" rot="R180"/>
-<instance part="E4" gate="G$1" x="213.36" y="-132.08" rot="R90"/>
+<instance part="E1" gate="G$1" x="213.36" y="-132.08" rot="R90"/>
 <instance part="R18" gate="G$1" x="222.25" y="-127" rot="R90"/>
 <instance part="GND57" gate="1" x="222.25" y="-119.38" rot="R180"/>
 <instance part="R19" gate="G$1" x="176.53" y="-49.53"/>
@@ -9852,12 +9851,7 @@ VIN Max: 20V&lt;br/&gt;</description>
 <pinref part="GND52" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SDCONV" gate="G$1" pin="GND"/>
-<wire x1="30.48" y1="-45.72" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="GND53" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SERCONV" gate="G$1" pin="GND"/>
+<pinref part="CONV" gate="G$1" pin="GND"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="33.02" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 </segment>
@@ -10076,12 +10070,7 @@ VIN Max: 20V&lt;br/&gt;</description>
 <junction x="43.18" y="-63.5"/>
 </segment>
 <segment>
-<pinref part="SDCONV" gate="G$1" pin="VCC"/>
-<wire x1="10.16" y1="-45.72" x2="5.08" y2="-45.72" width="0.1524" layer="91"/>
-<label x="3.302" y="-45.212" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SERCONV" gate="G$1" pin="VCC"/>
+<pinref part="CONV" gate="G$1" pin="VCC"/>
 <wire x1="10.16" y1="22.86" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
 <label x="-1.778" y="23.114" size="1.778" layer="95"/>
 </segment>
@@ -10228,11 +10217,6 @@ VIN Max: 20V&lt;br/&gt;</description>
 </net>
 <net name="MEGAA2" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A2"/>
-<wire x1="-73.66" y1="53.34" x2="-93.98" y2="53.34" width="0.1524" layer="91"/>
-<label x="-93.98" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="200GACCEL" gate="G$1" pin="Z"/>
 <wire x1="125.73" y1="133.35" x2="125.73" y2="135.89" width="0.1524" layer="91"/>
 <wire x1="125.73" y1="135.89" x2="111.76" y2="135.89" width="0.1524" layer="91"/>
@@ -10241,12 +10225,10 @@ VIN Max: 20V&lt;br/&gt;</description>
 <junction x="111.76" y="135.89"/>
 <label x="90.17" y="135.89" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="MEGAA3" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A3"/>
-<wire x1="-73.66" y1="50.8" x2="-93.98" y2="50.8" width="0.1524" layer="91"/>
-<label x="-93.98" y="50.8" size="1.778" layer="95"/>
+<pinref part="MEGA" gate="G$1" pin="A2"/>
+<wire x1="-73.66" y1="53.34" x2="-93.98" y2="53.34" width="0.1524" layer="91"/>
+<label x="-93.98" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -10313,45 +10295,20 @@ VIN Max: 20V&lt;br/&gt;</description>
 <pinref part="FIX" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="GPS" gate="G$1" pin="TX"/>
-<wire x1="106.68" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="GPSSELECT" gate="G$1" pin="5"/>
-<wire x1="96.52" y1="17.78" x2="96.52" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="GPS" gate="G$1" pin="RX"/>
-<wire x1="106.68" y1="15.24" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="GPSSELECT" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="15.24" x2="104.14" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="MEGARX1" class="0">
-<segment>
-<pinref part="GPSSELECT" gate="G$1" pin="6"/>
-<wire x1="93.98" y1="-5.08" x2="93.98" y2="-15.24" width="0.1524" layer="91"/>
-<label x="93.472" y="-14.986" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="MEGA" gate="G$1" pin="19(RX1)"/>
 <wire x1="-33.02" y1="63.5" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
 <label x="-27.94" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="XBEESELECT" gate="G$1" pin="4"/>
-<wire x1="-86.36" y1="-71.12" x2="-99.06" y2="-71.12" width="0.1524" layer="91"/>
-<label x="-99.06" y="-71.12" size="1.778" layer="95"/>
+<pinref part="GPS" gate="G$1" pin="TX"/>
+<wire x1="106.68" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="17.78" x2="99.06" y2="7.62" width="0.1524" layer="91"/>
+<label x="99.06" y="5.08" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="MEGARX2" class="0">
-<segment>
-<pinref part="GPSSELECT" gate="G$1" pin="4"/>
-<wire x1="99.06" y1="-5.08" x2="99.06" y2="-15.24" width="0.1524" layer="91"/>
-<label x="98.552" y="-15.24" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="MEGA" gate="G$1" pin="17(RX2)"/>
 <wire x1="-33.02" y1="68.58" x2="-17.78" y2="68.58" width="0.1524" layer="91"/>
@@ -10377,9 +10334,9 @@ VIN Max: 20V&lt;br/&gt;</description>
 <label x="-93.98" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="10.16" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
-<label x="-5.08" y="15.24" size="1.778" layer="95"/>
-<pinref part="SERCONV" gate="G$1" pin="3A"/>
+<pinref part="CONV" gate="G$1" pin="1A"/>
+<wire x1="10.16" y1="20.32" x2="-2.54" y2="20.32" width="0.1524" layer="91"/>
+<label x="-2.54" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGATX1" class="0">
@@ -10389,9 +10346,9 @@ VIN Max: 20V&lt;br/&gt;</description>
 <label x="-27.94" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="CONV" gate="G$1" pin="2A"/>
 <wire x1="10.16" y1="17.78" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
-<label x="-5.08" y="17.78" size="1.778" layer="95"/>
-<pinref part="SERCONV" gate="G$1" pin="2A"/>
+<label x="-2.54" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGATX2" class="0">
@@ -10400,51 +10357,30 @@ VIN Max: 20V&lt;br/&gt;</description>
 <wire x1="-33.02" y1="71.12" x2="-17.78" y2="71.12" width="0.1524" layer="91"/>
 <label x="-27.94" y="71.12" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="10.16" y1="20.32" x2="-2.54" y2="20.32" width="0.1524" layer="91"/>
-<label x="-5.08" y="20.32" size="1.778" layer="95"/>
-<pinref part="SERCONV" gate="G$1" pin="1A"/>
-</segment>
 </net>
 <net name="TX0" class="0">
-<segment>
-<wire x1="30.48" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
-<label x="36.068" y="15.494" size="1.778" layer="95"/>
-<pinref part="SERCONV" gate="G$1" pin="3Y"/>
-</segment>
 <segment>
 <pinref part="XBEESELECT" gate="G$1" pin="3"/>
 <wire x1="-86.36" y1="-73.66" x2="-99.06" y2="-73.66" width="0.1524" layer="91"/>
 <label x="-99.06" y="-73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CONV" gate="G$1" pin="1Y"/>
+<wire x1="30.48" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<label x="38.1" y="20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TX1" class="0">
 <segment>
-<wire x1="30.48" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
-<label x="36.322" y="18.034" size="1.778" layer="95"/>
-<pinref part="SERCONV" gate="G$1" pin="2Y"/>
+<pinref part="CONV" gate="G$1" pin="2Y"/>
+<wire x1="30.48" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
+<label x="38.1" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="GPSSELECT" gate="G$1" pin="3"/>
-<wire x1="101.6" y1="-5.08" x2="101.6" y2="-15.24" width="0.1524" layer="91"/>
-<label x="101.092" y="-14.986" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="XBEESELECT" gate="G$1" pin="1"/>
-<wire x1="-86.36" y1="-78.74" x2="-99.06" y2="-78.74" width="0.1524" layer="91"/>
-<label x="-99.06" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TX2" class="0">
-<segment>
-<wire x1="30.48" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
-<label x="36.322" y="20.574" size="1.778" layer="95"/>
-<pinref part="SERCONV" gate="G$1" pin="1Y"/>
-</segment>
-<segment>
-<pinref part="GPSSELECT" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="-5.08" x2="106.68" y2="-15.24" width="0.1524" layer="91"/>
-<label x="105.918" y="-14.986" size="1.778" layer="95" rot="R90"/>
+<pinref part="GPS" gate="G$1" pin="RX"/>
+<wire x1="106.68" y1="15.24" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="15.24" x2="104.14" y2="7.62" width="0.1524" layer="91"/>
+<label x="104.14" y="5.08" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -10480,8 +10416,12 @@ VIN Max: 20V&lt;br/&gt;</description>
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="CS"/>
 <wire x1="58.42" y1="-53.34" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
-<label x="43.18" y="-53.34" size="1.778" layer="95"/>
-<pinref part="SDCONV" gate="G$1" pin="3Y"/>
+<label x="25.4" y="-53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CONV" gate="G$1" pin="5Y"/>
+<wire x1="30.48" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
+<label x="38.1" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGASDCS" class="0">
@@ -10491,9 +10431,9 @@ VIN Max: 20V&lt;br/&gt;</description>
 <label x="-30.48" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SDCONV" gate="G$1" pin="3A"/>
-<wire x1="10.16" y1="-53.34" x2="0" y2="-53.34" width="0.1524" layer="91"/>
-<label x="-2.54" y="-53.086" size="1.778" layer="95"/>
+<pinref part="CONV" gate="G$1" pin="5A"/>
+<wire x1="10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="91"/>
+<label x="-2.54" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGASCLK" class="0">
@@ -10503,9 +10443,9 @@ VIN Max: 20V&lt;br/&gt;</description>
 <label x="-30.48" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SDCONV" gate="G$1" pin="2A"/>
-<wire x1="10.16" y1="-50.8" x2="0" y2="-50.8" width="0.1524" layer="91"/>
-<label x="-2.54" y="-50.546" size="1.778" layer="95"/>
+<pinref part="CONV" gate="G$1" pin="4A"/>
+<wire x1="10.16" y1="12.7" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
+<label x="-2.54" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGAMOSI" class="0">
@@ -10515,9 +10455,9 @@ VIN Max: 20V&lt;br/&gt;</description>
 <label x="-30.48" y="-17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SDCONV" gate="G$1" pin="1A"/>
-<wire x1="10.16" y1="-48.26" x2="0" y2="-48.26" width="0.1524" layer="91"/>
-<label x="-2.032" y="-48.006" size="1.778" layer="95"/>
+<pinref part="CONV" gate="G$1" pin="3A"/>
+<wire x1="10.16" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
+<label x="-2.54" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGAMISO" class="0">
@@ -10536,8 +10476,12 @@ VIN Max: 20V&lt;br/&gt;</description>
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="SCLK"/>
 <wire x1="58.42" y1="-50.8" x2="30.48" y2="-50.8" width="0.1524" layer="91"/>
-<label x="43.18" y="-50.8" size="1.778" layer="95"/>
-<pinref part="SDCONV" gate="G$1" pin="2Y"/>
+<label x="25.4" y="-50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CONV" gate="G$1" pin="4Y"/>
+<wire x1="30.48" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
+<label x="38.1" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -10560,13 +10504,17 @@ VIN Max: 20V&lt;br/&gt;</description>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="SDCONV" gate="G$1" pin="1Y"/>
 <pinref part="MICROSD" gate="G$1" pin="DATA_IN"/>
 <wire x1="30.48" y1="-48.26" x2="38.1" y2="-48.26" width="0.1524" layer="91"/>
-<label x="43.18" y="-48.26" size="1.778" layer="95"/>
+<label x="25.4" y="-48.26" size="1.778" layer="95"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="-48.26" x2="58.42" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="38.1" y="-48.26"/>
+</segment>
+<segment>
+<pinref part="CONV" gate="G$1" pin="3Y"/>
+<wire x1="30.48" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
+<label x="38.1" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IOREF" class="0">
@@ -10684,7 +10632,7 @@ VIN Max: 20V&lt;br/&gt;</description>
 <segment>
 <pinref part="SECOND" gate="G$1" pin="G"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="E3" gate="G$1" pin="A"/>
+<pinref part="E2" gate="G$1" pin="A"/>
 <wire x1="201.93" y1="-101.6" x2="208.28" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="201.93" y="-101.6"/>
 <wire x1="208.28" y1="-101.6" x2="209.55" y2="-101.6" width="0.1524" layer="91"/>
@@ -10705,7 +10653,7 @@ VIN Max: 20V&lt;br/&gt;</description>
 <segment>
 <pinref part="FIRST" gate="G$1" pin="G"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="E4" gate="G$1" pin="A"/>
+<pinref part="E1" gate="G$1" pin="A"/>
 <wire x1="203.2" y1="-132.08" x2="209.55" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="203.2" y="-132.08"/>
 <wire x1="209.55" y1="-132.08" x2="210.82" y2="-132.08" width="0.1524" layer="91"/>
@@ -10726,7 +10674,7 @@ VIN Max: 20V&lt;br/&gt;</description>
 <segment>
 <pinref part="THIRD" gate="G$1" pin="G"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="E2" gate="G$1" pin="A"/>
+<pinref part="E3" gate="G$1" pin="A"/>
 <wire x1="203.2" y1="-69.85" x2="208.28" y2="-69.85" width="0.1524" layer="91"/>
 <junction x="203.2" y="-69.85"/>
 <wire x1="208.28" y1="-69.85" x2="210.82" y2="-69.85" width="0.1524" layer="91"/>
@@ -10747,7 +10695,7 @@ VIN Max: 20V&lt;br/&gt;</description>
 <segment>
 <pinref part="FOURTH" gate="G$1" pin="G"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="E1" gate="G$1" pin="A"/>
+<pinref part="E4" gate="G$1" pin="A"/>
 <wire x1="203.2" y1="-43.18" x2="208.28" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="203.2" y="-43.18"/>
 <wire x1="208.28" y1="-43.18" x2="213.36" y2="-43.18" width="0.1524" layer="91"/>
@@ -10766,27 +10714,27 @@ VIN Max: 20V&lt;br/&gt;</description>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="E1" gate="G$1" pin="C"/>
+<pinref part="E4" gate="G$1" pin="C"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="E2" gate="G$1" pin="C"/>
+<pinref part="E3" gate="G$1" pin="C"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="-69.85" x2="218.44" y2="-69.85" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="E3" gate="G$1" pin="C"/>
+<pinref part="E2" gate="G$1" pin="C"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="217.17" y1="-101.6" x2="219.71" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="E4" gate="G$1" pin="C"/>
+<pinref part="E1" gate="G$1" pin="C"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="-132.08" x2="222.25" y2="-132.08" width="0.1524" layer="91"/>
 </segment>
