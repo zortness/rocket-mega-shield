@@ -1,60 +1,69 @@
-Partlist exported from C:/Users/Kurtis/Projects/public/rocket-mega-shield/rocket-mega-shield.sch at 7/31/2013 11:00:28 PM
+Partlist
 
-Part       Value            Device                        Package               Description                                                                                                   PROD_ID    
-3.3VREG    NCP1117DT33G     NCP1117DT33G                  DPAK                  NCP1117DT33G 3.3V Voltage Regulator                                                                                      
-16GACCEL   LSM303DLHCTR     LSM303DLHC                    LGA14                 LSM303DLHC                                                                                                               
-200GACCEL  ADXL377          ADXL377                       LFCSP-16              ADXL377 3-Axis 200G analog accelerometer                                                                                 
-ALTIMETER  BMP085           BMP085                        BMP085                BMP085 Barometric Pressure and Temperature Sensor                                                                        
-C1         100uF            C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C2         100uF16V         C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C3         10uF             C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C4         220uF            C-USC1210                     C1210                 CAPACITOR, American symbol                                                                                               
-C7         0.1uF            C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C8         0.1uF            C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C9         4.7uF            C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C10        10uF             C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C11        0.1uF            C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C12        0.22uF           C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C13        10nF             C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C14        10uF             C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C15        0.1uF            C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C16        1uF              C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C17        0.01uF           C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C19        0.01uF           C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C20        0.01uF           C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C21        10uF             C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C22        0.1uF            C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C23        0.1uF            C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-C26        0.01uF           C-USC1206                     C1206                 CAPACITOR, American symbol                                                                                               
-CONV       M74HC4050M       HEX_CONVERTER                 SO016                 Just what it says.                                                                                                       
-D1         STTH102A         DIODESMA-ALT                  SMA-DIODE_ALT         Diode                                                                                                                    
-E1                          LED1206                       LED-1206              LEDs                                                                                                                     
-E2                          LED1206                       LED-1206              LEDs                                                                                                                     
-E3                          LED1206                       LED-1206              LEDs                                                                                                                     
-E4                          LED1206                       LED-1206              LEDs                                                                                                                     
-EXTBATT                     M02-JST-2-PTH-NO_SILK         JST-2-PTH-NS          Header 2                                                                                                                 
-FIRST      SI7112DN         MOSFET-NCHANNELSI7820DN       POWERPAK1212-8        Common NMOSFET Parts                                                                                          TRANS-11055
-FIX                         LED1206                       LED-1206              LEDs                                                                                                                     
-FOURTH     SI7112DN         MOSFET-NCHANNELSI7820DN       POWERPAK1212-8        Common NMOSFET Parts                                                                                          TRANS-11055
-GPS        FGPMMOPA6H       GPS_FGPMMOPA6H                FGPMMOPA6H            GPS Module - MTK MT3339 Chipset, -165dBm sensitivity, 22 channels, 10Hz, auto-select external antenna options            
-GPS_EXT    U.FL             U.FL                          U.FL                  SMD antenna connector- WRL-09144                                                                                         
-GYRO       L3GD20TR         L3GD20                        LGA16-4X4             L3GD20 3-Axis Gyro                                                                                                       
-MEGA       ARDUINO-MEGAFULL ARDUINO-MEGAFULL              ARDUINO_MEGA          Arduino MegaR3 board footprint. Also works for Due.                                                                      
-MICROSD    MICROSD          MICROSD                       MICROSD               Micro-SD / Transflash card holder with SPI pinout                                                                        
-PWR                         LED1206                       LED-1206              LEDs                                                                                                                     
-PYRO       1X6TERMINALBLOCK 1X6TERMINALBLOCK              1X6TERMINALBLOCK      1x6 Terminal Block at 0.01" (2.54mm) pitch                                                                               
-RA1        330              RESISTOR_CRA06S08             1206X4RESISTORARRAY   4-Channel Resistor Array Vishay CRA06S08 series                                                                          
-RA2        10k              RESISTOR_CRA06S08             1206X4RESISTORARRAY   4-Channel Resistor Array Vishay CRA06S08 series                                                                          
-RA3        620k             RESISTOR_CRA06S08             1206X4RESISTORARRAY   4-Channel Resistor Array Vishay CRA06S08 series                                                                          
-RA4        110k             RESISTOR_CRA06S08             1206X4RESISTORARRAY   4-Channel Resistor Array Vishay CRA06S08 series                                                                          
-RA5        330              RESISTOR_CRA06S08             1206X4RESISTORARRAY   4-Channel Resistor Array Vishay CRA06S08 series                                                                          
-RA6        10k              RESISTOR_CRA06S08             1206X4RESISTORARRAY   4-Channel Resistor Array Vishay CRA06S08 series                                                                          
-RESET      1101NE           SWITCH-MOMENTARY-2-SMD-1101NE TACTILE-SWITCH-1101NE Various NO switches- pushbuttons, reed, etc                                                                              
-RSSI                        LED1206                       LED-1206              LEDs                                                                                                                     
-SCLSHIFT   BSS138           BSS138                        SOT23                                                                                                                                          
-SDACT                       LED1206                       LED-1206              LEDs                                                                                                                     
-SDASHIFT   BSS138           BSS138                        SOT23                                                                                                                                          
-SECOND     SI7112DN         MOSFET-NCHANNELSI7820DN       POWERPAK1212-8        Common NMOSFET Parts                                                                                          TRANS-11055
-THIRD      SI7112DN         MOSFET-NCHANNELSI7820DN       POWERPAK1212-8        Common NMOSFET Parts                                                                                          TRANS-11055
-XBEE       XBEE             XBEE                          XBEE                                                                                                                                           
-XBEESELECT AYZ0202          AYZ0202                       AYZ0202               SPDT Slide Switch                                                                                                        
+Exported from rocket-mega-shield.sch at 8/1/2013 3:09:04 PM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part       Value            Device                        Package               Library                    Sheet
+
+3.3VREG    NCP1117DT33G     NCP1117DT33G                  DPAK                  kurt                       1
+16GACCEL   LSM303DLHCTR     LSM303DLHC                    LGA14                 kurt                       1
+200GACCEL  ADXL377          ADXL377                       LFCSP-16              zortness                   1
+ALTIMETER  BMP085           BMP085                        BMP085                kurt                       1
+C1         100uF            C-USC1206                     C1206                 adafruit                   1
+C2         100uF16V         C-USC1210                     C1210                 adafruit                   1
+C3         10uF             C-USC1206                     C1206                 adafruit                   1
+C4         220uF            C-USC1210                     C1210                 adafruit                   1
+C7         0.1uF            C-USC1206                     C1206                 adafruit                   1
+C8         0.1uF            C-USC1206                     C1206                 adafruit                   1
+C9         4.7uF            C-USC1206                     C1206                 adafruit                   1
+C10        10uF             C-USC1206                     C1206                 adafruit                   1
+C11        0.1uF            C-USC1206                     C1206                 adafruit                   1
+C12        0.22uF           C-USC1206                     C1206                 adafruit                   1
+C13        0.01uF           C-USC1206                     C1206                 adafruit                   1
+C14        10uF             C-USC1206                     C1206                 adafruit                   1
+C15        0.1uF            C-USC1206                     C1206                 adafruit                   1
+C16        1uF              C-USC1206                     C1206                 adafruit                   1
+C17        0.01uF           C-USC1206                     C1206                 adafruit                   1
+C19        0.01uF           C-USC1206                     C1206                 adafruit                   1
+C20        0.01uF           C-USC1206                     C1206                 adafruit                   1
+C21        10uF             C-USC1206                     C1206                 adafruit                   1
+C22        0.1uF            C-USC1206                     C1206                 adafruit                   1
+C23        0.1uF            C-USC1206                     C1206                 adafruit                   1
+C26        0.01uF           C-USC1206                     C1206                 adafruit                   1
+CONV       M74HC4050M       HEX_CONVERTER                 SO016                 SparkFun-DigitalIC         1
+D1         STTH102A         DIODESMA-ALT                  SMA-DIODE_ALT         SparkFun-DiscreteSemi      1
+E1                          LED1206                       LED-1206              SparkFun-LED               1
+E2                          LED1206                       LED-1206              SparkFun-LED               1
+E3                          LED1206                       LED-1206              SparkFun-LED               1
+E4                          LED1206                       LED-1206              SparkFun-LED               1
+EXTBATT                     M02-JST-2-PTH-NO_SILK         JST-2-PTH-NS          SparkFun-Connectors        1
+FIRST      SI7112DN         MOSFET-NCHANNELSI7820DN       POWERPAK1212-8        SparkFun-DiscreteSemi      1
+FIX                         LED1206                       LED-1206              SparkFun-LED               1
+FOURTH     SI7112DN         MOSFET-NCHANNELSI7820DN       POWERPAK1212-8        SparkFun-DiscreteSemi      1
+GPS        FGPMMOPA6H       GPS_FGPMMOPA6H                FGPMMOPA6H            adafruit                   1
+GPS_EXT    U.FL             U.FL                          U.FL                  SparkFun-Connectors        1
+GYRO       L3GD20TR         L3GD20                        LGA16-4X4             kurt                       1
+MEGA       ARDUINO-MEGAFULL ARDUINO-MEGAFULL              ARDUINO_MEGA          kurt                       1
+MICROSD    MICROSD          MICROSD                       MICROSD               adafruit                   1
+PWR                         LED1206                       LED-1206              SparkFun-LED               1
+PYRO       1X6TERMINALBLOCK 1X6TERMINALBLOCK              1X6TERMINALBLOCK      zortness                   1
+R1         620k             R-US_R1206                    R1206                 adafruit                   1
+R2         110k             R-US_R1206                    R1206                 adafruit                   1
+RA1        330              RESISTOR_CRA06S08             1206X4RESISTORARRAY   zortness                   1
+RA2        10k              RESISTOR_CRA06S08             1206X4RESISTORARRAY   zortness                   1
+RA3        620k             RESISTOR_CRA06S08             1206X4RESISTORARRAY   zortness                   1
+RA4        110k             RESISTOR_CRA06S08             1206X4RESISTORARRAY   zortness                   1
+RA5        330              RESISTOR_CRA06S08             1206X4RESISTORARRAY   zortness                   1
+RA6        10k              RESISTOR_CRA06S08             1206X4RESISTORARRAY   zortness                   1
+RESET      1101NE           SWITCH-MOMENTARY-2-SMD-1101NE TACTILE-SWITCH-1101NE SparkFun-Electromechanical 1
+RSSI                        LED1206                       LED-1206              SparkFun-LED               1
+SCLSHIFT   BSS138           BSS138                        SOT23                 kurt                       1
+SDACT                       LED1206                       LED-1206              SparkFun-LED               1
+SDASHIFT   BSS138           BSS138                        SOT23                 kurt                       1
+SECOND     SI7112DN         MOSFET-NCHANNELSI7820DN       POWERPAK1212-8        SparkFun-DiscreteSemi      1
+THIRD      SI7112DN         MOSFET-NCHANNELSI7820DN       POWERPAK1212-8        SparkFun-DiscreteSemi      1
+XBEE       XBEE             XBEE                          XBEE                  adafruit                   1
+XBEESELECT AYZ0202          AYZ0202                       AYZ0202               SparkFun-Electromechanical 1
