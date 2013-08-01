@@ -2661,8 +2661,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="27.305" y1="13.97" x2="26.9875" y2="13.6525" width="0.1524" layer="16"/>
 <wire x1="26.9875" y1="13.6525" x2="26.9875" y2="13.1215" width="0.1524" layer="16"/>
 <wire x1="26.9875" y1="13.1215" x2="27.07" y2="13.039" width="0.1524" layer="16"/>
-<via x="27.305" y="15.875" extent="1-16" drill="0.3302"/>
-<wire x1="27.305" y1="15.875" x2="27.305" y2="19.685" width="0.1524" layer="16"/>
+<wire x1="27.305" y1="15.24" x2="27.305" y2="19.685" width="0.1524" layer="16"/>
 <wire x1="27.305" y1="19.685" x2="26.035" y2="20.955" width="0.1524" layer="16"/>
 <via x="26.035" y="20.955" extent="1-16" drill="0.3302"/>
 <wire x1="26.035" y1="20.955" x2="22.86" y2="20.955" width="0.1524" layer="1"/>
