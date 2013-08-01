@@ -17,6 +17,7 @@ Integrated Circuits
 * [Hex Buffer HC4050](http://www.digikey.com/product-detail/en/M74HC4050RM13TR/497-1844-1-ND/592147): $0.55
 * [BMP180 Altimeter](http://www.digikey.com/product-detail/en/BMP180/828-1027-1-ND/2688260) $4.80
 * [SI7112DN N-Channel MOSFET](http://www.digikey.com/product-detail/en/SI7112DN-T1-GE3/SI7112DN-T1-GE3CT-ND/1995641): $1.59 (x4 = $6.36)
+
 13 -> $65.67
 
 
@@ -24,6 +25,7 @@ Discretes
 ---------
 * [STTH102A Diode](http://www.digikey.com/product-detail/en/STTH102A/497-2500-1-ND/603882): $0.49
 * [1206 LED](http://www.digikey.com/product-detail/en/LTST-C150GKT/160-1169-1-ND/269241): $0.34 (x8 = $2.72) (various colors)
+
 9 -> $3.21
 
 
@@ -36,6 +38,7 @@ Resistors:
 * [10k Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S08310K0JTA/CRA6S810KCT-ND/1285853): $0.093 (x2 = $0.186)
 * [110k Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S083110KJTA/CRA6S8110KCT-ND/1285855): $0.093
 * [620k Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S083620KJTA/CRA6S8620KCT-ND/1285947): $0.093
+
 8 -> $0.746
 
 Capacitors:
@@ -48,6 +51,7 @@ Capacitors:
 * [0.22uF](http://www.digikey.com/product-detail/en/C3216X7R1H224K115AA/445-1379-1-ND/567629): $0.22
 * [0.1uF](http://www.digikey.com/product-detail/en/C3216X7R2A104K160AA/445-1377-1-ND/567625): $0.26 (x6 = $1.56)
 * [0.01uF](http://www.digikey.com/product-detail/en/C3216X5R2J103K115AA/445-14727-1-ND/3956393): $0.26 (x5 = $1.30)
+
 21 -> $9.76
 
 Electromechanical
@@ -59,6 +63,7 @@ Electromechanical
 * [MicroSD Socket](https://www.sparkfun.com/products/127): $3.95
 * [Xbee socket](http://www.digikey.com/product-detail/en/NPPN101BFCN-RC/S5751-10-ND/804812): $1.11 (x2 = $2.22)
 * [u.FL antenna connector](http://www.digikey.com/product-detail/en/RECE-20279-001E-01/931-1107-1-ND/2332746): $1.85
+
 8 -> $14.36
 
 Board Build Cost
