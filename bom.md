@@ -24,14 +24,15 @@ Integrated Circuits
 Diodes
 -----------------
 * [STTH102A Diode](http://www.digikey.com/product-detail/en/STTH102A/497-2500-1-ND/603882): *$0.49*
-* [1206 LED](http://www.digikey.com/product-detail/en/LTST-C150GKT/160-1169-1-ND/269241): *$0.34* (x8 = *$2.72*) (various colors)
+* [1206 LED](http://www.digikey.com/product-detail/en/LTST-C150GKT/160-1169-1-ND/269241): *$0.34* (x9 = *$3.06*) (various colors)
 
-*Total:* 9 pieces, **$3.21**
+*Total:* 9 pieces, **$3.55**
 
 
 Passives
 -----------------
 **Resistors:**
+* [330 Ohm Resistor](http://www.digikey.com/product-detail/en/CRCW1206330RJNEA/541-330ECT-ND/1181303): *$0.094*
 * [10k Ohm Resistor](http://www.digikey.com/product-detail/en/CRCW120610K0JNEA/541-10KECT-ND/1181339): *$0.094*
 * [110k Ohm Resistor](http://www.digikey.com/product-detail/en/CRCW1206110KJNEA/541-110KECT-ND/1181364): *$0.094*
 * [620k Ohm Resistor](http://www.digikey.com/product-detail/en/CRCW1206620KJNEA/541-620KECT-ND/1181382): *$0.094*
@@ -40,7 +41,7 @@ Passives
 * [110k Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S083110KJTA/CRA6S8110KCT-ND/1285855): *$0.093*
 * [620k Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S083620KJTA/CRA6S8620KCT-ND/1285947): *$0.093*
 
-*Total:* 8 pieces, **$0.84**
+*Total:* 8 pieces, **$0.934**
 
 **Capacitors:**
 * [100uF 16V](http://www.digikey.com/product-detail/en/EMK325ABJ107MM-T/587-3152-1-ND/2774765): *$2.25*
