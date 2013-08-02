@@ -56,19 +56,19 @@ Passives
 
 Electromechanical
 -----------------
-* [AYZ0202 DPDT Switch](https://www.sparkfun.com/products/597): *$1.50*
-* [JST-2 connector](https://www.sparkfun.com/products/9749): *$0.95*
-* [Momentary Switch SMD](https://www.sparkfun.com/products/8229): *$0.95*
+* [DPDT Switch](http://www.digikey.com/product-detail/en/EG1390A/EG4632CT-ND/1950621): *$0.58*
+* [JST-2 connector](http://www.digikey.com/product-detail/en/S2B-XH-A(LF)(SN)/455-2257-ND/1651055): *$0.16*
+* [Momentary Switch SMD](http://www.digikey.com/product-detail/en/KMR231NG%20LFS/CKN10246CT-ND/2176497): *$0.55*
 * [6-port terminal block](http://www.digikey.com/product-detail/en/282834-6/A98337-ND/1153267): *$2.94*
-* [MicroSD Socket](https://www.sparkfun.com/products/127): *$3.95*
+* [MicroSD Socket](http://www.digikey.com/product-detail/en/693071010811/732-3819-1-ND/3124603): *$2.38*
 * [Xbee socket](http://www.digikey.com/product-detail/en/NPPN101BFCN-RC/S5751-10-ND/804812): *$1.11* (x2 = *$2.22*)
 * [u.FL antenna connector](http://www.digikey.com/product-detail/en/RECE-20279-001E-01/931-1107-1-ND/2332746): *$1.85*
 
-*Total:* 8 pieces, **$14.36**
+*Total:* 8 pieces, **$10.68**
 
 Board Build Cost
 ----------------
-about **$111** (plus shipping, solder, equipment, etc.)
+about **$107** (plus shipping, solder, equipment, etc.)
 
 
 Additional items

@@ -158,38 +158,6 @@
 <pad name="20" x="11" y="5.5" drill="0.7" diameter="1.4224"/>
 <text x="-3" y="-16" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="MICROSD">
-<wire x1="13" y1="-15.14" x2="14" y2="-15.14" width="0.127" layer="21"/>
-<wire x1="14" y1="-15.14" x2="14" y2="-0.04" width="0.127" layer="21"/>
-<wire x1="14" y1="-0.04" x2="0" y2="-0.04" width="0.127" layer="21"/>
-<wire x1="0" y1="-0.04" x2="0" y2="-14.44" width="0.127" layer="21"/>
-<wire x1="0" y1="-14.44" x2="1" y2="-14.44" width="0.127" layer="21"/>
-<wire x1="1" y1="-14.44" x2="1.7" y2="-13.54" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.7" y1="-13.54" x2="11.4" y2="-13.54" width="0.127" layer="21"/>
-<wire x1="11.4" y1="-13.54" x2="13" y2="-15.14" width="0.127" layer="21" curve="-90"/>
-<wire x1="0.4" y1="-14.7" x2="1.6" y2="-15.9" width="0.127" layer="21" curve="90"/>
-<wire x1="1.6" y1="-15.9" x2="10.8" y2="-15.9" width="0.127" layer="21"/>
-<wire x1="10.8" y1="-15.9" x2="12.1" y2="-14.8" width="0.127" layer="21" curve="90"/>
-<wire x1="0.4" y1="-15.6" x2="1.6" y2="-16.8" width="0.127" layer="21" curve="90"/>
-<wire x1="1.6" y1="-16.8" x2="10.8" y2="-16.8" width="0.127" layer="21"/>
-<wire x1="10.8" y1="-16.8" x2="12.1" y2="-15.7" width="0.127" layer="21" curve="90"/>
-<wire x1="0.4" y1="-19.4" x2="1.6" y2="-20.6" width="0.127" layer="21" curve="90"/>
-<wire x1="1.6" y1="-20.6" x2="10.8" y2="-20.6" width="0.127" layer="21"/>
-<wire x1="10.8" y1="-20.6" x2="12.1" y2="-19.5" width="0.127" layer="21" curve="90"/>
-<smd name="MT1" x="0.4" y="-13.54" dx="1.4" dy="1.9" layer="1"/>
-<smd name="MT2" x="13.6" y="-14.44" dx="1.4" dy="1.9" layer="1"/>
-<smd name="CD1" x="2" y="-0.44" dx="1.4" dy="1.8" layer="1" rot="R90"/>
-<smd name="CD2" x="8" y="-0.44" dx="1.4" dy="1.8" layer="1" rot="R90"/>
-<smd name="8" x="1.3" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
-<smd name="7" x="2.4" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
-<smd name="6" x="3.5" y="-11.04" dx="0.7" dy="1.5" layer="1"/>
-<smd name="5" x="4.6" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
-<smd name="4" x="5.7" y="-11.04" dx="0.7" dy="1.5" layer="1"/>
-<smd name="3" x="6.8" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
-<smd name="2" x="7.9" y="-10.24" dx="0.7" dy="1.5" layer="1"/>
-<smd name="1" x="9" y="-10.64" dx="0.7" dy="1.5" layer="1"/>
-<text x="3.7" y="-3.94" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="FGPMMOPA6H">
 <wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
 <wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="21"/>
@@ -3207,31 +3175,6 @@ type 0309, grid 2.5 mm</description>
 <pin name="AD1/DIO1" x="25.4" y="7.62" length="middle" rot="R180"/>
 <pin name="AD0/DIO0" x="25.4" y="10.16" length="middle" rot="R180"/>
 </symbol>
-<symbol name="TRANSFLASH">
-<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-25.4" x2="10.16" y2="20.32" width="0.254" layer="94"/>
-<wire x1="10.16" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-22.86" x2="-5.08" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-22.86" x2="-2.54" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-25.4" x2="0" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="0" y1="-25.4" x2="0" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="-22.86" x2="2.54" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-22.86" x2="2.54" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
-<text x="-7.62" y="-10.16" size="2.1844" layer="94">SD &amp; MMC</text>
-<pin name="CS" x="-17.78" y="0" length="short" direction="in"/>
-<pin name="DATA_IN" x="-17.78" y="5.08" length="short" direction="in"/>
-<pin name="VSS" x="-17.78" y="-12.7" length="short" direction="sup"/>
-<pin name="VDD" x="-17.78" y="-10.16" length="short" direction="sup"/>
-<pin name="SCLK" x="-17.78" y="2.54" length="short" direction="in"/>
-<pin name="DATA_OUT" x="-17.78" y="7.62" length="short" direction="out"/>
-<pin name="DAT1" x="-17.78" y="-2.54" length="short"/>
-<pin name="DAT2" x="-17.78" y="-5.08" length="short"/>
-<pin name="CARD_DETECT" x="-17.78" y="17.78" length="short" direction="pas"/>
-<pin name="GND" x="-17.78" y="-20.32" length="short" direction="sup"/>
-<pin name="GND1" x="-17.78" y="-17.78" length="short" direction="sup"/>
-<pin name="CARD_DETECT1" x="-17.78" y="15.24" length="short" direction="pas"/>
-</symbol>
 <symbol name="FGPMMOPA6H">
 <wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
 <wire x1="12.7" y1="20.32" x2="12.7" y2="12.7" width="0.254" layer="94"/>
@@ -3325,36 +3268,6 @@ type 0309, grid 2.5 mm</description>
 <connect gate="G$1" pin="RTS/AD6/DIO6" pad="16"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 <connect gate="G$1" pin="VREF" pad="14"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MICROSD">
-<description>&lt;b&gt;Micro-SD / Transflash card holder with SPI pinout&lt;/b&gt;
-&lt;p&gt;
-For the 3M # 2908-05WB-MG and/or 4UCON #19656&lt;br&gt;
-push-push type</description>
-<gates>
-<gate name="G$1" symbol="TRANSFLASH" x="5.08" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="MICROSD">
-<connects>
-<connect gate="G$1" pin="CARD_DETECT" pad="CD1"/>
-<connect gate="G$1" pin="CARD_DETECT1" pad="CD2"/>
-<connect gate="G$1" pin="CS" pad="2"/>
-<connect gate="G$1" pin="DAT1" pad="8"/>
-<connect gate="G$1" pin="DAT2" pad="1"/>
-<connect gate="G$1" pin="DATA_IN" pad="3"/>
-<connect gate="G$1" pin="DATA_OUT" pad="7"/>
-<connect gate="G$1" pin="GND" pad="MT1"/>
-<connect gate="G$1" pin="GND1" pad="MT2"/>
-<connect gate="G$1" pin="SCLK" pad="5"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
-<connect gate="G$1" pin="VSS" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4723,32 +4636,6 @@ push-push type</description>
 <library name="kurt">
 <description>My Lib.</description>
 <packages>
-<package name="BMP085">
-<description>Modified LCC8 footprint for the BMP085 barometric pressure sensor.</description>
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-0.75" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2" width="0.127" layer="21"/>
-<wire x1="0.75" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-0.75" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="0.75" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2" width="0.127" layer="21"/>
-<circle x="-3.25" y="2.5" radius="0.2" width="0.35" layer="21"/>
-<smd name="P$1" x="-2.565" y="1.27" dx="2.67" dy="0.8" layer="1"/>
-<smd name="P$2" x="-2.565" y="0" dx="2.67" dy="0.8" layer="1"/>
-<smd name="P$3" x="-2.565" y="-1.27" dx="2.67" dy="0.8" layer="1"/>
-<smd name="P$4" x="0" y="-2.565" dx="2.67" dy="0.8" layer="1" rot="R90"/>
-<smd name="P$5" x="2.565" y="-1.27" dx="2.67" dy="0.8" layer="1" rot="R180"/>
-<smd name="P$6" x="2.565" y="0" dx="2.67" dy="0.8" layer="1" rot="R180"/>
-<smd name="P$7" x="2.565" y="1.27" dx="2.67" dy="0.8" layer="1" rot="R180"/>
-<smd name="P$8" x="0" y="2.15" dx="3.5" dy="0.8" layer="1" rot="R270"/>
-<text x="-2.54" y="2.794" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.302" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="LGA16-4X4">
 <description>16 Terminal LGA in a 4mm x 4mm package</description>
 <smd name="P$1" x="-2" y="0.975" dx="1.25" dy="0.3" layer="1"/>
@@ -6342,29 +6229,6 @@ push-push type</description>
 </package>
 </packages>
 <symbols>
-<symbol name="BMP085">
-<description>&lt;b&gt;BMP085 Barometric Pressure and Temperature Sensor&lt;/b&gt;
-&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;http://www.digikey.com/product-detail/en/BMP085/828-1005-1-ND/1987010&lt;/li&gt;
-&lt;li&gt;http://media.digikey.com/pdf/Data%20Sheets/Bosch/BMP085.pdf&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
-<pin name="GND" x="-15.24" y="10.16" length="short" direction="pwr"/>
-<pin name="EOC" x="-15.24" y="7.62" length="short" direction="out"/>
-<pin name="VDDA" x="-15.24" y="5.08" length="short" direction="pwr"/>
-<pin name="VDDD" x="-15.24" y="2.54" length="short" direction="pwr"/>
-<pin name="NC" x="10.16" y="2.54" length="short" direction="nc" rot="R180"/>
-<pin name="SCL" x="10.16" y="5.08" length="short" rot="R180"/>
-<pin name="SDA" x="10.16" y="7.62" length="short" rot="R180"/>
-<pin name="XCLR" x="10.16" y="10.16" length="short" direction="in" rot="R180"/>
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="0" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<text x="-6.096" y="13.716" size="1.27" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="L3GD20">
 <description>&lt;b&gt;L3GD20 3-Axis Gyroscope&lt;/b&gt;
 &lt;p&gt;
@@ -6559,35 +6423,6 @@ Used for logic voltage level switching.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BMP085" prefix="U" uservalue="yes">
-<description>&lt;b&gt;BMP085 Barometric Pressure and Temperature Sensor&lt;/b&gt;
-&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Modified LCC-8 Package&lt;/li&gt;
-&lt;li&gt;http://www.digikey.com/product-detail/en/BMP085/828-1005-1-ND/1987010&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="BMP085" x="2.54" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="BMP085">
-<connects>
-<connect gate="G$1" pin="EOC" pad="P$2"/>
-<connect gate="G$1" pin="GND" pad="P$1"/>
-<connect gate="G$1" pin="NC" pad="P$5"/>
-<connect gate="G$1" pin="SCL" pad="P$6"/>
-<connect gate="G$1" pin="SDA" pad="P$7"/>
-<connect gate="G$1" pin="VDDA" pad="P$3"/>
-<connect gate="G$1" pin="VDDD" pad="P$4"/>
-<connect gate="G$1" pin="XCLR" pad="P$8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="L3GD20" prefix="U" uservalue="yes">
 <description>&lt;b&gt;L3GD20 3-Axis Gyro&lt;/b&gt;
 &lt;p&gt;
@@ -7582,208 +7417,6 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <hole x="1.5" y="0" drill="0.85"/>
 <hole x="-1.5" y="0" drill="0.85"/>
 </package>
-<package name="TACTILE-PTH">
-<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
-<package name="TACTILE_SWITCH_SMD">
-<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="-2.54" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="2" x="2.54" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="3" x="-2.54" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="4" x="2.54" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<text x="-0.889" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.889" y="-2.032" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD-2">
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="2.25" x2="2.25" y2="2.25" width="0.127" layer="51"/>
-<wire x1="2.25" y1="2.25" x2="2.25" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="2.25" y1="-2.25" x2="-2.25" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="0.8" x2="-2.2" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="1.3" y1="2.2" x2="-1.3" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-0.8" x2="2.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-1.3" y1="-2.2" x2="1.3" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="0.8" x2="1.8" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-0.8" x2="1.8" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="0.8" x2="-2.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="-0.8" x2="-2.2" y2="-0.8" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="2.225" y="1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="2" x="2.225" y="-1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="3" x="-2.225" y="-1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="4" x="-2.225" y="1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<text x="-0.889" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.889" y="-2.032" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="TACTILE-PTH-12MM">
-<wire x1="5" y1="-1.3" x2="5" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="5" y1="-0.7" x2="4.5" y2="-0.2" width="0.2032" layer="51"/>
-<wire x1="5" y1="0.2" x2="5" y2="1" width="0.2032" layer="51"/>
-<wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="6" y2="4" width="0.2032" layer="21"/>
-<wire x1="6" y1="1" x2="6" y2="-1" width="0.2032" layer="21"/>
-<wire x1="6" y1="-4" x2="6" y2="-5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-6" y2="-4" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-1" x2="-6" y2="1" width="0.2032" layer="21"/>
-<wire x1="-6" y1="5" x2="-5" y2="6" width="0.2032" layer="21" curve="-90"/>
-<wire x1="5" y1="6" x2="6" y2="5" width="0.2032" layer="21" curve="-90"/>
-<wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.2032" layer="21" curve="-90"/>
-<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
-<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<pad name="2" x="-6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="3" x="6.25" y="2.5" drill="1.2" diameter="2.159"/>
-</package>
-<package name="TACTILE-SWITCH-1101NE">
-<description>Sparkfun SKU# COM-08229</description>
-<wire x1="-3" y1="1.1" x2="-3" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="3" y1="1.1" x2="3" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="-2.75" y1="1.75" x2="-3" y2="1.5" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.75" y1="1.75" x2="2.75" y2="1.75" width="0.127" layer="21"/>
-<wire x1="2.75" y1="1.75" x2="3" y2="1.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="3" y1="-1.5" x2="2.65" y2="-1.75" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.65" y1="-1.75" x2="-2.75" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-3" y1="-1.5" x2="-2.75" y2="-1.75" width="0.127" layer="21" curve="90"/>
-<wire x1="-3" y1="-1.5" x2="-3" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-3" y1="1.1" x2="-3" y2="1.5" width="0.127" layer="21"/>
-<wire x1="3" y1="1.1" x2="3" y2="1.5" width="0.127" layer="21"/>
-<wire x1="3" y1="-1.5" x2="3" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
-<wire x1="-2" y1="0" x2="-1" y2="0" width="0.127" layer="51"/>
-<wire x1="-1" y1="0" x2="0.1" y2="0.5" width="0.127" layer="51"/>
-<wire x1="0.3" y1="0" x2="2" y2="0" width="0.127" layer="51"/>
-<smd name="P$1" x="-3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
-<smd name="P$2" x="3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
-<text x="-3" y="2" size="0.762" layer="25">&gt;NAME</text>
-<text x="-3" y="-2.7" size="0.762" layer="27">&gt;VALUE</text>
-</package>
-<package name="REED_SWITCH_PTH">
-<wire x1="-6.985" y1="-0.635" x2="6.985" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-6.985" y1="-0.635" x2="-6.985" y2="0" width="0.127" layer="21"/>
-<wire x1="-6.985" y1="0" x2="-6.985" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-6.985" y1="0.635" x2="6.985" y2="0.635" width="0.127" layer="21"/>
-<wire x1="6.985" y1="0.635" x2="6.985" y2="0" width="0.127" layer="21"/>
-<wire x1="6.985" y1="0" x2="6.985" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-6.985" y1="0" x2="-7.62" y2="0" width="0.127" layer="21"/>
-<wire x1="6.985" y1="0" x2="7.62" y2="0" width="0.127" layer="21"/>
-<pad name="P$1" x="-8.89" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="P$2" x="8.89" y="0" drill="1.016" diameter="1.8796"/>
-</package>
-<package name="TACTILE_SWITCH_TALL">
-<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.254" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="3" width="0.254" layer="21"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.254" layer="21"/>
-<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="1.75" width="0.254" layer="21"/>
-<smd name="A1" x="-3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="A2" x="3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="B1" x="-3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="B2" x="3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-</package>
-<package name="REED_SWITCH_PLASTIC">
-<wire x1="-7.5" y1="-1.65" x2="7.5" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="-7.5" y1="-1.65" x2="-7.5" y2="0" width="0.127" layer="21"/>
-<wire x1="-7.5" y1="0" x2="-7.5" y2="1.65" width="0.127" layer="21"/>
-<wire x1="-7.5" y1="1.65" x2="7.5" y2="1.65" width="0.127" layer="21"/>
-<wire x1="7.5" y1="1.65" x2="7.5" y2="0" width="0.127" layer="21"/>
-<wire x1="7.5" y1="0" x2="7.5" y2="-1.65" width="0.127" layer="21"/>
-<wire x1="-7.5" y1="0" x2="-7.72" y2="0" width="0.127" layer="21"/>
-<wire x1="7.5" y1="0" x2="7.72" y2="0" width="0.127" layer="21"/>
-<pad name="P$1" x="-8.89" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="P$2" x="8.89" y="0" drill="1.016" diameter="1.8796"/>
-</package>
-<package name="TACTILE-PTH-SIDEEZ">
-<wire x1="1.5" y1="-3.8" x2="-1.5" y2="-3.8" width="0.2032" layer="51"/>
-<wire x1="-3.65" y1="-2" x2="-3.65" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="-3.65" y1="3.5" x2="-3" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="3" y1="3.5" x2="3.65" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="3.65" y1="3.5" x2="3.65" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-3" y1="2" x2="3" y2="2" width="0.2032" layer="51"/>
-<wire x1="-3" y1="2" x2="-3" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="3" y1="2" x2="3" y2="3.5" width="0.2032" layer="51"/>
-<wire x1="-3.65" y1="-2" x2="-1.5" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-1.5" y1="-2" x2="1.5" y2="-2" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="-2" x2="3.65" y2="-2" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="-2" x2="1.5" y2="-3.8" width="0.2032" layer="51"/>
-<wire x1="-1.5" y1="-2" x2="-1.5" y2="-3.8" width="0.2032" layer="51"/>
-<wire x1="-3.65" y1="1" x2="-3.65" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.65" y1="-2" x2="3.65" y2="-2" width="0.2032" layer="21"/>
-<wire x1="3.65" y1="-2" x2="3.65" y2="1" width="0.2032" layer="21"/>
-<wire x1="2" y1="2" x2="-2" y2="2" width="0.2032" layer="21"/>
-<pad name="ANCHOR1" x="-3.5" y="2.5" drill="1.2" diameter="2.2" stop="no"/>
-<pad name="ANCHOR2" x="3.5" y="2.5" drill="1.2" diameter="2.2" stop="no"/>
-<pad name="1" x="-2.5" y="0" drill="0.8" diameter="1.7" stop="no"/>
-<pad name="2" x="2.5" y="0" drill="0.8" diameter="1.7" stop="no"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<circle x="2.5" y="0" radius="0.4445" width="0" layer="29"/>
-<circle x="-2.5" y="0" radius="0.4445" width="0" layer="29"/>
-<circle x="-3.5" y="2.5" radius="0.635" width="0" layer="29"/>
-<circle x="3.5" y="2.5" radius="0.635" width="0" layer="29"/>
-<circle x="-3.5" y="2.5" radius="1.143" width="0" layer="30"/>
-<circle x="2.5" y="0" radius="0.889" width="0" layer="30"/>
-<circle x="-2.5" y="0" radius="0.889" width="0" layer="30"/>
-<circle x="3.5" y="2.5" radius="1.143" width="0" layer="30"/>
-</package>
-<package name="TACTILE_SWITCH_SMD-3">
-<wire x1="-2.04" y1="-0.44" x2="-2.04" y2="0.47" width="0.2032" layer="21"/>
-<wire x1="-1.04" y1="1.14" x2="1.04" y2="1.14" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="0.8" width="0.15" layer="21"/>
-<smd name="1" x="-1.8" y="1.1" dx="0.8" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="1.8" y="1.1" dx="0.8" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="-1.8" y="-1.1" dx="0.8" dy="1" layer="1" rot="R90"/>
-<smd name="4" x="1.8" y="-1.1" dx="0.8" dy="1" layer="1" rot="R90"/>
-<wire x1="2.06" y1="-0.44" x2="2.06" y2="0.47" width="0.2032" layer="21"/>
-<wire x1="-1.04" y1="-1.16" x2="1.04" y2="-1.16" width="0.2032" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="AYZ0202">
@@ -7816,16 +7449,6 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <pin name="5" x="-5.08" y="-5.08" visible="off" length="short"/>
 <pin name="6" x="5.08" y="-7.62" visible="off" length="short" rot="R180"/>
 </symbol>
-<symbol name="SWITCH-MOMENTARY-2">
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AYZ0202">
@@ -7843,104 +7466,6 @@ Simple SMD single-pull double-throw slide switch. Good for  less than 350mA powe
 <connect gate="G$1" pin="4" pad="6"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SWITCH-MOMENTARY-2" prefix="S">
-<description>Various NO switches- pushbuttons, reed, etc</description>
-<gates>
-<gate name="G$1" symbol="SWITCH-MOMENTARY-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="TACTILE-PTH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="TACTILE_SWITCH_SMD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD-2" package="TACTILE_SWITCH_SMD-2">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="12MM" package="TACTILE-PTH-12MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SMD-1101NE" package="TACTILE-SWITCH-1101NE">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH_REED" package="REED_SWITCH_PTH">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="TACTILE_SWITCH_TALL">
-<connects>
-<connect gate="G$1" pin="1" pad="A2"/>
-<connect gate="G$1" pin="2" pad="B2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH_REED2" package="REED_SWITCH_PLASTIC">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIDE_EZ" package="TACTILE-PTH-SIDEEZ">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD-3" package="TACTILE_SWITCH_SMD-3">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9013,10 +8538,164 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <smd name="7" x="-0.4" y="0.975" dx="1.15" dy="0.44" layer="1" rot="R90"/>
 <smd name="2" x="-0.4" y="-0.975" dx="1.15" dy="0.44" layer="1" rot="R90"/>
 <smd name="3" x="0.4" y="-0.974" dx="1.15" dy="0.44" layer="1" rot="R90"/>
-<text x="-2" y="-2" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
-<text x="3" y="-2" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-2" y="-0.095" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3" y="-0.095" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
 <wire x1="-1.8" y1="-0.5" x2="-1.8" y2="0.5" width="0.127" layer="21"/>
 <wire x1="1.8" y1="-0.5" x2="1.8" y2="0.5" width="0.127" layer="21"/>
+</package>
+<package name="MICROSD">
+<description>&lt;b&gt;MicroSD Connector&lt;/b&gt;&lt;br/&gt;
+&lt;a href="http://www.digikey.com/product-detail/en/693071010811/732-3819-1-ND/3124603"&gt;DigiKey&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://katalog.we-online.de/em/datasheet/693071010811.pdf"&gt;datasheet&lt;/a&gt;</description>
+<wire x1="1.7" y1="-13.54" x2="11.4" y2="-13.54" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-14.7" x2="1.6" y2="-15.9" width="0.127" layer="21" curve="90"/>
+<wire x1="1.6" y1="-15.9" x2="10.8" y2="-15.9" width="0.127" layer="21"/>
+<wire x1="10.8" y1="-15.9" x2="12.1" y2="-14.8" width="0.127" layer="21" curve="90"/>
+<smd name="MT1" x="0.4" y="-13.4" dx="1.4" dy="1.9" layer="1"/>
+<smd name="MT2" x="13.6" y="-14.4" dx="1.4" dy="1.9" layer="1"/>
+<smd name="CD1" x="2" y="-0.4" dx="1.4" dy="1.8" layer="1" rot="R90"/>
+<smd name="CD2" x="7.75" y="-0.4" dx="1.4" dy="1.8" layer="1" rot="R90"/>
+<smd name="8" x="1.24" y="-10.7" dx="0.7" dy="1.5" layer="1"/>
+<smd name="7" x="2.34" y="-10.7" dx="0.7" dy="1.5" layer="1"/>
+<smd name="6" x="3.44" y="-10.9" dx="0.7" dy="1.5" layer="1"/>
+<smd name="5" x="4.54" y="-10.7" dx="0.7" dy="1.5" layer="1"/>
+<smd name="4" x="5.64" y="-10.9" dx="0.7" dy="1.5" layer="1"/>
+<smd name="3" x="6.74" y="-10.7" dx="0.7" dy="1.5" layer="1"/>
+<smd name="2" x="7.84" y="-10.3" dx="0.7" dy="1.5" layer="1"/>
+<smd name="1" x="8.94" y="-10.7" dx="0.7" dy="1.5" layer="1"/>
+<text x="3.7" y="-3.94" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="0" y1="0" x2="0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="14" y1="0" x2="9.25" y2="0" width="0.127" layer="21"/>
+<wire x1="3.5" y1="0" x2="6" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-11.75" width="0.127" layer="21"/>
+<wire x1="14" y1="0" x2="14" y2="-12.75" width="0.127" layer="21"/>
+</package>
+<package name="BMP180">
+<description>&lt;b&gt;BMP180 Modified LGA7&lt;/b&gt;&lt;br/&gt;
+&lt;a href="http://www.digikey.com/product-detail/en/BMP180/828-1027-1-ND/2688260"&gt;DigiKey&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-08.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="0" y="-0.275" dx="1" dy="0.7" layer="1"/>
+<smd name="2" x="0" y="-1.775" dx="1" dy="0.7" layer="1"/>
+<smd name="3" x="0" y="-3.275" dx="1" dy="0.7" layer="1"/>
+<smd name="7" x="1.775" y="0" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="6" x="3.55" y="-0.275" dx="1" dy="0.7" layer="1"/>
+<smd name="5" x="3.55" y="-1.775" dx="1" dy="0.7" layer="1"/>
+<smd name="4" x="3.55" y="-3.275" dx="1" dy="0.7" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="-3.55" width="0.127" layer="23"/>
+<wire x1="0" y1="-3.55" x2="3.55" y2="-3.55" width="0.127" layer="23"/>
+<wire x1="3.55" y1="-3.55" x2="3.55" y2="0" width="0.127" layer="23"/>
+<wire x1="3.55" y1="0" x2="0" y2="0" width="0.127" layer="23"/>
+<wire x1="0.75" y1="0.25" x2="1" y2="0.25" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0.25" x2="2.75" y2="0.25" width="0.127" layer="21"/>
+<wire x1="1" y1="-3.75" x2="2.75" y2="-3.75" width="0.127" layer="21"/>
+<circle x="1" y="-1" radius="0.25" width="0.127" layer="21"/>
+<text x="0" y="0.75" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-0.25" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+<package name="TACTILE_SWITCH_SMD">
+<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
+<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
+<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
+<smd name="1" x="-2.54" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="2" x="2.54" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="3" x="-2.54" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="4" x="2.54" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<text x="-0.889" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.889" y="-2.032" size="0.4064" layer="27">&gt;Value</text>
+</package>
+<package name="TACTILE-PTH">
+<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
+<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
+<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+<package name="KSA_SEALED_TAC_SWITCH">
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="3.81" x2="5.08" y2="3.81" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-3.81" x2="-5.08" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="3.81" width="0.127" layer="21"/>
+<pad name="P$1" x="-3.81" y="2.54" drill="1" shape="square"/>
+<pad name="P$2" x="3.81" y="2.54" drill="1" shape="square"/>
+<pad name="P$3" x="-3.81" y="-2.54" drill="1" shape="square"/>
+<pad name="P$4" x="3.81" y="-2.54" drill="1" shape="square"/>
+</package>
+<package name="TACTILE_KMR2">
+<description>&lt;b&gt;KMR 2 Tactile Switch&lt;/b&gt;&lt;br/&gt;
+Pad for KMR 2-Series tactile switches.&lt;br/&gt;
+&lt;a href="http://www.digikey.com/product-search/en?FV=ffec3f7a"&gt;KMR 2 Series at DigiKey&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://www.digikey.com/product-detail/en/KMR231NG%20LFS/CKN10246CT-ND/2176497"&gt;KMR231NGLFS&lt;/a&gt;</description>
+<smd name="1" x="0.5" y="-0.5" dx="1" dy="1" layer="1"/>
+<smd name="2" x="4.5" y="-0.5" dx="1" dy="1" layer="1"/>
+<smd name="4" x="4.5" y="-2.1" dx="1" dy="1" layer="1"/>
+<smd name="3" x="0.5" y="-2.1" dx="1" dy="1" layer="1"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.127" layer="23"/>
+<wire x1="0.5" y1="-0.25" x2="0.5" y2="-0.75" width="0.127" layer="23"/>
+<wire x1="0.5" y1="-0.75" x2="0.5" y2="-1.85" width="0.127" layer="23"/>
+<wire x1="0.5" y1="-1.85" x2="0.5" y2="-2.35" width="0.127" layer="23"/>
+<wire x1="0.5" y1="-2.35" x2="0.5" y2="-2.85" width="0.127" layer="23"/>
+<wire x1="0.5" y1="-2.85" x2="4.5" y2="-2.85" width="0.127" layer="23"/>
+<wire x1="4.5" y1="-2.85" x2="4.5" y2="-2.35" width="0.127" layer="23"/>
+<wire x1="4.5" y1="-2.35" x2="4.5" y2="-1.85" width="0.127" layer="23"/>
+<wire x1="4.5" y1="-1.85" x2="4.5" y2="-0.75" width="0.127" layer="23"/>
+<wire x1="4.5" y1="-0.75" x2="4.5" y2="-0.25" width="0.127" layer="23"/>
+<wire x1="4.5" y1="-0.25" x2="4.5" y2="0.25" width="0.127" layer="23"/>
+<wire x1="4.5" y1="0.25" x2="0.5" y2="0.25" width="0.127" layer="23"/>
+<wire x1="0.5" y1="-0.25" x2="0.25" y2="-0.25" width="0.127" layer="23"/>
+<wire x1="0.25" y1="-0.25" x2="0.25" y2="-0.75" width="0.127" layer="23"/>
+<wire x1="0.25" y1="-0.75" x2="0.5" y2="-0.75" width="0.127" layer="23"/>
+<wire x1="0.5" y1="-1.85" x2="0.25" y2="-1.85" width="0.127" layer="23"/>
+<wire x1="0.25" y1="-1.85" x2="0.25" y2="-2.35" width="0.127" layer="23"/>
+<wire x1="0.25" y1="-2.35" x2="0.5" y2="-2.35" width="0.127" layer="23"/>
+<wire x1="4.5" y1="-0.25" x2="4.75" y2="-0.25" width="0.127" layer="23"/>
+<wire x1="4.75" y1="-0.25" x2="4.75" y2="-0.75" width="0.127" layer="23"/>
+<wire x1="4.75" y1="-0.75" x2="4.5" y2="-0.75" width="0.127" layer="23"/>
+<wire x1="4.5" y1="-1.85" x2="4.75" y2="-1.85" width="0.127" layer="23"/>
+<wire x1="4.75" y1="-1.85" x2="4.75" y2="-2.35" width="0.127" layer="23"/>
+<wire x1="4.75" y1="-2.35" x2="4.5" y2="-2.35" width="0.127" layer="23"/>
+<wire x1="1.5" y1="-0.5" x2="2.5" y2="-0.5" width="0.127" layer="23"/>
+<wire x1="2.5" y1="-0.5" x2="3.5" y2="-0.5" width="0.127" layer="23"/>
+<wire x1="2.5" y1="-0.5" x2="2.5" y2="-1" width="0.127" layer="23"/>
+<wire x1="2.5" y1="-1" x2="3" y2="-1.5" width="0.127" layer="23"/>
+<wire x1="1.5" y1="-2" x2="2.5" y2="-2" width="0.127" layer="23"/>
+<wire x1="2.5" y1="-2" x2="3.5" y2="-2" width="0.127" layer="23"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="-1.75" width="0.127" layer="23"/>
+<text x="2.5" y="0.5" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="2.5" y="-4" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="1" y1="0.25" x2="4" y2="0.25" width="0.127" layer="21"/>
+<wire x1="1" y1="-2.85" x2="4" y2="-2.85" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -9077,6 +8756,70 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pin name="A2" x="10.16" y="7.62" length="short" direction="pas" rot="R180"/>
 <text x="-3.556" y="10.922" size="1.27" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-12.446" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TRANSFLASH">
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-25.4" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="-5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-22.86" x2="-2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-25.4" x2="0" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="-25.4" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-22.86" x2="2.54" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-22.86" x2="2.54" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<text x="-7.62" y="-10.16" size="2.1844" layer="94">SD &amp; MMC</text>
+<pin name="CS" x="-17.78" y="0" length="short" direction="in"/>
+<pin name="DATA_IN" x="-17.78" y="5.08" length="short" direction="in"/>
+<pin name="VSS" x="-17.78" y="-12.7" length="short" direction="sup"/>
+<pin name="VDD" x="-17.78" y="-10.16" length="short" direction="sup"/>
+<pin name="SCLK" x="-17.78" y="2.54" length="short" direction="in"/>
+<pin name="DATA_OUT" x="-17.78" y="7.62" length="short" direction="out"/>
+<pin name="DAT1" x="-17.78" y="-2.54" length="short"/>
+<pin name="DAT2" x="-17.78" y="-5.08" length="short"/>
+<pin name="CARD_DETECT" x="-17.78" y="17.78" length="short" direction="pas"/>
+<pin name="GND" x="-17.78" y="-20.32" length="short" direction="sup"/>
+<pin name="GND1" x="-17.78" y="-17.78" length="short" direction="sup"/>
+<pin name="CARD_DETECT1" x="-17.78" y="15.24" length="short" direction="pas"/>
+</symbol>
+<symbol name="BMP180">
+<description>&lt;b&gt;Bosch BMP180 Altimeter&lt;/b&gt;&lt;br/&gt;
+&lt;a href="http://www.digikey.com/product-detail/en/BMP180/828-1027-1-ND/2688260"&gt;DigiKey&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-08.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="CSB" x="-12.7" y="2.54" length="short" direction="nc"/>
+<pin name="VDD" x="-12.7" y="0" length="short" direction="pwr"/>
+<pin name="VDDIO" x="-12.7" y="-2.54" length="short" direction="pwr"/>
+<pin name="SDO" x="12.7" y="-2.54" length="short" direction="nc" rot="R180"/>
+<pin name="SCL" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="SDA" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="0" y="7.62" length="short" direction="pwr" rot="R270"/>
+<text x="-10.16" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SWITCH-MOMENTARY">
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="4.445" x2="1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="4.445" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.905" y1="4.445" x2="0" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0" y1="4.445" x2="-1.905" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="4.445" x2="0" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9164,6 +8907,123 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </device>
 </devices>
 </deviceset>
+<deviceset name="MICROSD">
+<description>&lt;b&gt;MicroSD Connector&lt;/b&gt;&lt;br/&gt;
+&lt;a href="http://www.digikey.com/product-detail/en/693071010811/732-3819-1-ND/3124603"&gt;DigiKey&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://katalog.we-online.de/em/datasheet/693071010811.pdf"&gt;datasheet&lt;/a&gt;
+&lt;!--
+&lt;b&gt;Micro-SD / Transflash card holder with SPI pinout&lt;/b&gt;
+&lt;p&gt;
+For the 3M # 2908-05WB-MG and/or 4UCON #19656&lt;br&gt;
+push-push type--&gt;</description>
+<gates>
+<gate name="G$1" symbol="TRANSFLASH" x="5.08" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="MICROSD">
+<connects>
+<connect gate="G$1" pin="CARD_DETECT" pad="CD1"/>
+<connect gate="G$1" pin="CARD_DETECT1" pad="CD2"/>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="DATA_IN" pad="3"/>
+<connect gate="G$1" pin="DATA_OUT" pad="7"/>
+<connect gate="G$1" pin="GND" pad="MT1"/>
+<connect gate="G$1" pin="GND1" pad="MT2"/>
+<connect gate="G$1" pin="SCLK" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BMP180" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Bosch BMP180 Altimeter&lt;/b&gt;&lt;br/&gt;
+Modified LGA-7 package&lt;br/&gt;
+Code compatable with BMP085&lt;br/&gt;
+&lt;a href="http://www.digikey.com/product-detail/en/BMP180/828-1027-1-ND/2688260"&gt;DigiKey&lt;/a&gt;&lt;br/&gt;
+&lt;a href="http://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-08.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BMP180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMP180">
+<connects>
+<connect gate="G$1" pin="CSB" pad="1"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="SDO" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="VDDIO" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TAC_SWITCH" prefix="S" uservalue="yes">
+<description>&lt;b&gt;Momentary Switch&lt;/b&gt;&lt;br&gt;
+Button commonly used for reset or general input.&lt;br&gt;
+Spark Fun Electronics SKU : COM-00097&lt;br&gt;
+SMT- SWCH-08247</description>
+<gates>
+<gate name="S" symbol="SWITCH-MOMENTARY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="TACTILE_SWITCH_SMD">
+<connects>
+<connect gate="S" pin="1" pad="1"/>
+<connect gate="S" pin="2" pad="2"/>
+<connect gate="S" pin="3" pad="3"/>
+<connect gate="S" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08247"/>
+</technology>
+</technologies>
+</device>
+<device name="PTH" package="TACTILE-PTH">
+<connects>
+<connect gate="S" pin="1" pad="1"/>
+<connect gate="S" pin="2" pad="2"/>
+<connect gate="S" pin="3" pad="3"/>
+<connect gate="S" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="KSA_SEALED" package="KSA_SEALED_TAC_SWITCH">
+<connects>
+<connect gate="S" pin="1" pad="P$1"/>
+<connect gate="S" pin="2" pad="P$2"/>
+<connect gate="S" pin="3" pad="P$3"/>
+<connect gate="S" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="KMR2" package="TACTILE_KMR2">
+<connects>
+<connect gate="S" pin="1" pad="1"/>
+<connect gate="S" pin="2" pad="2"/>
+<connect gate="S" pin="3" pad="3"/>
+<connect gate="S" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -9180,15 +9040,14 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </class>
 </classes>
 <parts>
-<part name="XBEE" library="adafruit" deviceset="XBEE" device=""/>
-<part name="MICROSD" library="adafruit" deviceset="MICROSD" device=""/>
-<part name="GPS" library="adafruit" deviceset="GPS_FGPMMOPA6H" device="" value="FGPMMOPA6H"/>
-<part name="ALTIMETER" library="kurt" deviceset="BMP085" device="" value="BMP085"/>
-<part name="GYRO" library="kurt" deviceset="L3GD20" device="" value="L3GD20TR"/>
-<part name="16GACCEL" library="kurt" deviceset="LSM303DLHC" device="" value="LSM303DLHCTR"/>
-<part name="3.3VREG" library="kurt" deviceset="NCP1117DT33G" device=""/>
-<part name="SCLSHIFT" library="kurt" deviceset="BSS138" device="" value="BSS138"/>
-<part name="SDASHIFT" library="kurt" deviceset="BSS138" device="" value="BSS138"/>
+<part name="J5" library="adafruit" deviceset="XBEE" device=""/>
+<part name="J2" library="zortness" deviceset="MICROSD" device=""/>
+<part name="U2" library="adafruit" deviceset="GPS_FGPMMOPA6H" device="" value="FGPMMOPA6H"/>
+<part name="U7" library="kurt" deviceset="L3GD20" device="" value="L3GD20TR"/>
+<part name="U6" library="kurt" deviceset="LSM303DLHC" device="" value="LSM303DLHCTR"/>
+<part name="U3" library="kurt" deviceset="NCP1117DT33G" device=""/>
+<part name="Q2" library="kurt" deviceset="BSS138" device="" value="BSS138"/>
+<part name="Q1" library="kurt" deviceset="BSS138" device="" value="BSS138"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -9196,9 +9055,9 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <part name="C3" library="adafruit" deviceset="C-US" device="C1206" value="10uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="MEGA" library="kurt" deviceset="ARDUINO-MEGA" device="FULL"/>
+<part name="J3" library="kurt" deviceset="ARDUINO-MEGA" device="FULL" value="Mega R3"/>
 <part name="GND" library="supply1" deviceset="GND" device=""/>
-<part name="EXTBATT" library="SparkFun-Connectors" deviceset="M02" device="-JST-2-PTH-NO_SILK"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M02" device="-JST-2-PTH-NO_SILK" value="ExtBatt"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GPS_EXT" library="SparkFun-Connectors" deviceset="U.FL" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
@@ -9223,30 +9082,29 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="FIX" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="D5" library="SparkFun-LED" deviceset="LED" device="1206" value="Fix - blue"/>
 <part name="C21" library="adafruit" deviceset="C-US" device="C1206" value="10uF"/>
 <part name="C22" library="adafruit" deviceset="C-US" device="C1206" value="0.1uF"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="PWR" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED" device="1206" value="PWR - green"/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
-<part name="RSSI" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="D4" library="SparkFun-LED" deviceset="LED" device="1206" value="RSSI - yellow"/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="XBEESELECT" library="SparkFun-Electromechanical" deviceset="AYZ0202" device=""/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="AYZ0202" device=""/>
 <part name="C23" library="adafruit" deviceset="C-US" device="C1206" value="0.1uF"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
-<part name="SDACT" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="CONV" library="SparkFun-DigitalIC" deviceset="HEX_CONVERTER" device="" value="M74HC4050M"/>
-<part name="RESET" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="-SMD-1101NE" value="1101NE"/>
+<part name="D3" library="SparkFun-LED" deviceset="LED" device="1206" value="SDAct - orange"/>
+<part name="U9" library="SparkFun-DigitalIC" deviceset="HEX_CONVERTER" device="" value="M74HC4050M"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
-<part name="FIRST" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SI7820DN" value="SI7112DN"/>
-<part name="SECOND" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SI7820DN" value="SI7112DN"/>
-<part name="THIRD" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SI7820DN" value="SI7112DN"/>
-<part name="FOURTH" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SI7820DN" value="SI7112DN"/>
-<part name="200GACCEL" library="zortness" deviceset="ADXL377" device=""/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SI7820DN" value="SI7112DN"/>
+<part name="Q4" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SI7820DN" value="SI7112DN"/>
+<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SI7820DN" value="SI7112DN"/>
+<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="SI7820DN" value="SI7112DN"/>
+<part name="U8" library="zortness" deviceset="ADXL377" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="adafruit" deviceset="C-US" device="C1206" value="0.1uF"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
@@ -9260,15 +9118,15 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="adafruit" deviceset="C-US" device="C1206" value="100uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="PYRO" library="zortness" deviceset="1X6TERMINALBLOCK" device=""/>
+<part name="J4" library="zortness" deviceset="1X6TERMINALBLOCK" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="E4" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="E3" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="E2" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="E1" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="D9" library="SparkFun-LED" deviceset="LED" device="1206" value="Pyro4 - red"/>
+<part name="D8" library="SparkFun-LED" deviceset="LED" device="1206" value="Pyro3 - red"/>
+<part name="D7" library="SparkFun-LED" deviceset="LED" device="1206" value="Pyro2 - red"/>
+<part name="D6" library="SparkFun-LED" deviceset="LED" device="1206" value="Pyro1 - red"/>
 <part name="RA1" library="zortness" deviceset="RESISTOR_CRA06S08" device="" value="330"/>
 <part name="RA2" library="zortness" deviceset="RESISTOR_CRA06S08" device="" value="10k"/>
 <part name="RA3" library="zortness" deviceset="RESISTOR_CRA06S08" device="" value="620k"/>
@@ -9281,6 +9139,8 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <part name="R1" library="adafruit" deviceset="R-US_" device="R1206" value="620k"/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R1206" value="110k"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="U1" library="zortness" deviceset="BMP180" device="" value="BMP180"/>
+<part name="S2" library="zortness" deviceset="TAC_SWITCH" device="KMR2" value="KMR2"/>
 </parts>
 <sheets>
 <sheet>
@@ -9362,25 +9222,24 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <text x="-162.56" y="17.78" size="1.778" layer="97">Batt Voltage</text>
 </plain>
 <instances>
-<instance part="XBEE" gate="G$1" x="-91.44" y="-99.06"/>
-<instance part="MICROSD" gate="G$1" x="-17.78" y="-76.2"/>
-<instance part="GPS" gate="G$1" x="-2.54" y="38.1"/>
-<instance part="ALTIMETER" gate="G$1" x="139.7" y="25.4"/>
-<instance part="GYRO" gate="G$1" x="200.66" y="81.28"/>
-<instance part="16GACCEL" gate="G$1" x="154.94" y="86.36"/>
-<instance part="3.3VREG" gate="G$1" x="-55.88" y="93.98"/>
-<instance part="SCLSHIFT" gate="G$1" x="66.04" y="83.82" rot="R180"/>
-<instance part="SDASHIFT" gate="G$1" x="66.04" y="99.06" rot="R180"/>
+<instance part="J5" gate="G$1" x="-91.44" y="-99.06"/>
+<instance part="J2" gate="G$1" x="-17.78" y="-76.2"/>
+<instance part="U2" gate="G$1" x="-2.54" y="38.1"/>
+<instance part="U7" gate="G$1" x="200.66" y="81.28"/>
+<instance part="U6" gate="G$1" x="154.94" y="86.36"/>
+<instance part="U3" gate="G$1" x="-55.88" y="93.98"/>
+<instance part="Q2" gate="G$1" x="66.04" y="83.82" rot="R180"/>
+<instance part="Q1" gate="G$1" x="66.04" y="99.06" rot="R180"/>
 <instance part="GND2" gate="1" x="-73.66" y="99.06" rot="R180"/>
 <instance part="GND5" gate="1" x="-17.78" y="-12.7" rot="R180"/>
-<instance part="GND6" gate="1" x="119.38" y="38.1" rot="R180"/>
+<instance part="GND6" gate="1" x="137.16" y="40.64" rot="R180"/>
 <instance part="C2" gate="G$1" x="-76.2" y="88.9"/>
 <instance part="C3" gate="G$1" x="-81.28" y="96.52" rot="R180"/>
 <instance part="GND9" gate="1" x="-76.2" y="81.28"/>
 <instance part="GND10" gate="1" x="-81.28" y="104.14" rot="R180"/>
-<instance part="MEGA" gate="G$1" x="-104.14" y="5.08"/>
+<instance part="J3" gate="G$1" x="-104.14" y="5.08"/>
 <instance part="GND" gate="1" x="-139.7" y="-45.72" rot="R270"/>
-<instance part="EXTBATT" gate="G$1" x="-147.32" y="88.9"/>
+<instance part="J1" gate="G$1" x="-147.32" y="88.9"/>
 <instance part="GND16" gate="1" x="-132.08" y="86.36"/>
 <instance part="GPS_EXT" gate="G$1" x="15.24" y="20.32" rot="R90"/>
 <instance part="GND22" gate="1" x="109.22" y="30.48" rot="R270"/>
@@ -9405,30 +9264,29 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <instance part="GND31" gate="1" x="-33.02" y="48.26"/>
 <instance part="GND32" gate="1" x="-43.18" y="48.26"/>
 <instance part="GND34" gate="1" x="20.32" y="38.1" rot="R90"/>
-<instance part="FIX" gate="G$1" x="10.16" y="99.06" rot="R90"/>
+<instance part="D5" gate="G$1" x="10.16" y="99.06" rot="R90"/>
 <instance part="C21" gate="G$1" x="-134.62" y="-78.74" rot="R180"/>
 <instance part="C22" gate="G$1" x="-121.92" y="-78.74" rot="R180"/>
 <instance part="GND39" gate="1" x="195.58" y="111.76" rot="R180"/>
-<instance part="PWR" gate="G$1" x="10.16" y="83.82" rot="R90"/>
+<instance part="D2" gate="G$1" x="10.16" y="83.82" rot="R90"/>
 <instance part="GND40" gate="1" x="20.32" y="81.28"/>
-<instance part="RSSI" gate="G$1" x="10.16" y="93.98" rot="R90"/>
+<instance part="D4" gate="G$1" x="10.16" y="93.98" rot="R90"/>
 <instance part="GND42" gate="1" x="-116.84" y="-114.3"/>
 <instance part="GND43" gate="1" x="-121.92" y="-71.12" rot="R180"/>
 <instance part="GND44" gate="1" x="-134.62" y="-71.12" rot="R180"/>
-<instance part="XBEESELECT" gate="G$1" x="-132.08" y="-96.52" rot="R180"/>
+<instance part="S1" gate="G$1" x="-132.08" y="-96.52" rot="R180"/>
 <instance part="C23" gate="G$1" x="-50.8" y="-88.9"/>
 <instance part="GND45" gate="1" x="-50.8" y="-96.52"/>
 <instance part="GND15" gate="1" x="-38.1" y="-99.06"/>
 <instance part="GND52" gate="1" x="-45.72" y="-58.42" rot="R270"/>
-<instance part="SDACT" gate="G$1" x="10.16" y="88.9" rot="R90"/>
-<instance part="CONV" gate="G$1" x="-30.48" y="-22.86"/>
-<instance part="RESET" gate="G$1" x="-149.86" y="43.18" rot="R90"/>
+<instance part="D3" gate="G$1" x="10.16" y="88.9" rot="R90"/>
+<instance part="U9" gate="G$1" x="-30.48" y="-22.86"/>
 <instance part="GND37" gate="1" x="-149.86" y="50.8" rot="R180"/>
-<instance part="FIRST" gate="G$1" x="101.6" y="-124.46"/>
-<instance part="SECOND" gate="G$1" x="100.33" y="-104.14"/>
-<instance part="THIRD" gate="G$1" x="101.6" y="-83.82"/>
-<instance part="FOURTH" gate="G$1" x="101.346" y="-64.77"/>
-<instance part="200GACCEL" gate="G$1" x="224.79" y="12.7"/>
+<instance part="Q3" gate="G$1" x="101.6" y="-124.46"/>
+<instance part="Q4" gate="G$1" x="100.33" y="-104.14"/>
+<instance part="Q5" gate="G$1" x="101.6" y="-83.82"/>
+<instance part="Q6" gate="G$1" x="101.346" y="-64.77"/>
+<instance part="U8" gate="G$1" x="224.79" y="12.7"/>
 <instance part="GND3" gate="1" x="220.98" y="-5.08"/>
 <instance part="C7" gate="G$1" x="223.52" y="36.83" rot="R180"/>
 <instance part="GND17" gate="1" x="223.52" y="44.45" rot="R180"/>
@@ -9442,15 +9300,15 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <instance part="GND4" gate="1" x="-92.71" y="104.14" rot="R180"/>
 <instance part="C1" gate="G$1" x="-105.41" y="96.52" rot="R180"/>
 <instance part="GND1" gate="1" x="-105.41" y="104.14" rot="R180"/>
-<instance part="PYRO" gate="G$1" x="161.29" y="-87.63" rot="R90"/>
+<instance part="J4" gate="G$1" x="161.29" y="-87.63" rot="R90"/>
 <instance part="GND7" gate="1" x="101.6" y="-91.44"/>
 <instance part="GND8" gate="1" x="101.346" y="-72.39"/>
 <instance part="GND11" gate="1" x="100.33" y="-111.76"/>
 <instance part="GND12" gate="1" x="101.6" y="-132.08"/>
-<instance part="E4" gate="G$1" x="134.62" y="-33.02" rot="R90"/>
-<instance part="E3" gate="G$1" x="134.62" y="-27.94" rot="R90"/>
-<instance part="E2" gate="G$1" x="134.62" y="-22.86" rot="R90"/>
-<instance part="E1" gate="G$1" x="134.62" y="-17.78" rot="R90"/>
+<instance part="D9" gate="G$1" x="134.62" y="-33.02" rot="R90"/>
+<instance part="D8" gate="G$1" x="134.62" y="-27.94" rot="R90"/>
+<instance part="D7" gate="G$1" x="134.62" y="-22.86" rot="R90"/>
+<instance part="D6" gate="G$1" x="134.62" y="-17.78" rot="R90"/>
 <instance part="RA1" gate="G$1" x="-2.54" y="91.44"/>
 <instance part="RA2" gate="G$1" x="66.04" y="60.96" rot="R90"/>
 <instance part="RA3" gate="G$1" x="45.72" y="-86.36"/>
@@ -9463,13 +9321,15 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <instance part="R1" gate="G$1" x="-88.9" y="83.82"/>
 <instance part="R2" gate="G$1" x="-106.68" y="83.82"/>
 <instance part="GND13" gate="1" x="-114.3" y="83.82" rot="R270"/>
+<instance part="U1" gate="G$1" x="137.16" y="30.48"/>
+<instance part="S2" gate="S" x="-152.4" y="43.18" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="3.3VREG" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="-63.5" y1="96.52" x2="-73.66" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -9483,37 +9343,32 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </segment>
 <segment>
 <pinref part="GND" gate="1" pin="GND"/>
-<pinref part="MEGA" gate="G$1" pin="GND@3"/>
+<pinref part="J3" gate="G$1" pin="GND@3"/>
 <wire x1="-124.46" y1="-45.72" x2="-129.54" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-45.72" x2="-132.08" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="-45.72" x2="-134.62" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="-45.72" x2="-137.16" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="-45.72" x2="-137.16" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="-137.16" y="-45.72"/>
-<pinref part="MEGA" gate="G$1" pin="GND@0"/>
+<pinref part="J3" gate="G$1" pin="GND@0"/>
 <wire x1="-137.16" y1="-38.1" x2="-124.46" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="MEGA" gate="G$1" pin="GND@1"/>
+<pinref part="J3" gate="G$1" pin="GND@1"/>
 <wire x1="-124.46" y1="-40.64" x2="-134.62" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="-40.64" x2="-134.62" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="-134.62" y="-45.72"/>
-<pinref part="MEGA" gate="G$1" pin="GND@2"/>
+<pinref part="J3" gate="G$1" pin="GND@2"/>
 <wire x1="-124.46" y1="-43.18" x2="-132.08" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="-43.18" x2="-132.08" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="-132.08" y="-45.72"/>
-<pinref part="MEGA" gate="G$1" pin="GND@4"/>
+<pinref part="J3" gate="G$1" pin="GND@4"/>
 <wire x1="-124.46" y1="-48.26" x2="-129.54" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="-48.26" x2="-129.54" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="-129.54" y="-45.72"/>
 </segment>
 <segment>
-<pinref part="EXTBATT" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="-139.7" y1="88.9" x2="-132.08" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="ALTIMETER" gate="G$1" pin="GND"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="124.46" y1="35.56" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -9522,16 +9377,16 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="91.44" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="16GACCEL" gate="G$1" pin="GND@1"/>
+<pinref part="U6" gate="G$1" pin="GND@1"/>
 <wire x1="121.92" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <junction x="121.92" y="91.44"/>
 </segment>
 <segment>
-<pinref part="16GACCEL" gate="G$1" pin="GND@3"/>
+<pinref part="U6" gate="G$1" pin="GND@3"/>
 <wire x1="137.16" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="127" y1="78.74" x2="127" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="16GACCEL" gate="G$1" pin="GND@2"/>
+<pinref part="U6" gate="G$1" pin="GND@2"/>
 <wire x1="127" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <junction x="127" y="78.74"/>
@@ -9545,27 +9400,27 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GYRO" gate="G$1" pin="GND@13"/>
+<pinref part="U7" gate="G$1" pin="GND@13"/>
 <wire x1="203.2" y1="96.52" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="101.6" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="101.6" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="GYRO" gate="G$1" pin="GND@8"/>
+<pinref part="U7" gate="G$1" pin="GND@8"/>
 <wire x1="220.98" y1="83.82" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="81.28" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="78.74" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="76.2" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="GYRO" gate="G$1" pin="GND@12"/>
+<pinref part="U7" gate="G$1" pin="GND@12"/>
 <wire x1="215.9" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 <junction x="220.98" y="83.82"/>
-<pinref part="GYRO" gate="G$1" pin="GND@11"/>
+<pinref part="U7" gate="G$1" pin="GND@11"/>
 <wire x1="215.9" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
 <junction x="220.98" y="81.28"/>
-<pinref part="GYRO" gate="G$1" pin="GND@10"/>
+<pinref part="U7" gate="G$1" pin="GND@10"/>
 <wire x1="215.9" y1="78.74" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
 <junction x="220.98" y="78.74"/>
-<pinref part="GYRO" gate="G$1" pin="GND@9"/>
+<pinref part="U7" gate="G$1" pin="GND@9"/>
 <wire x1="215.9" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
 <junction x="220.98" y="76.2"/>
 <wire x1="220.98" y1="66.04" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
@@ -9584,10 +9439,10 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <junction x="22.86" y="17.78"/>
 </segment>
 <segment>
-<pinref part="GPS" gate="G$1" pin="GND@2"/>
+<pinref part="U2" gate="G$1" pin="GND@2"/>
 <wire x1="-17.78" y1="30.48" x2="-22.86" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="30.48" x2="-22.86" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="GPS" gate="G$1" pin="GND@1"/>
+<pinref part="U2" gate="G$1" pin="GND@1"/>
 <wire x1="-22.86" y1="43.18" x2="-17.78" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 <junction x="-22.86" y="30.48"/>
@@ -9605,9 +9460,9 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GPS" gate="G$1" pin="GND@4"/>
+<pinref part="U2" gate="G$1" pin="GND@4"/>
 <wire x1="12.7" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="GPS" gate="G$1" pin="GND@3"/>
+<pinref part="U2" gate="G$1" pin="GND@3"/>
 <wire x1="12.7" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="45.72" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND34" gate="1" pin="GND"/>
@@ -9619,7 +9474,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="XBEE" gate="G$1" pin="GND"/>
+<pinref part="J5" gate="G$1" pin="GND"/>
 <pinref part="GND42" gate="1" pin="GND"/>
 <wire x1="-116.84" y1="-111.76" x2="-114.3" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
@@ -9632,11 +9487,11 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="MICROSD" gate="G$1" pin="GND"/>
+<pinref part="J2" gate="G$1" pin="GND"/>
 <wire x1="-35.56" y1="-96.52" x2="-38.1" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="MICROSD" gate="G$1" pin="VSS"/>
+<pinref part="J2" gate="G$1" pin="VSS"/>
 <wire x1="-35.56" y1="-88.9" x2="-38.1" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="MICROSD" gate="G$1" pin="GND1"/>
+<pinref part="J2" gate="G$1" pin="GND1"/>
 <wire x1="-38.1" y1="-88.9" x2="-38.1" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-93.98" x2="-38.1" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-93.98" x2="-38.1" y2="-93.98" width="0.1524" layer="91"/>
@@ -9649,29 +9504,25 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="GND45" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="MICROSD" gate="G$1" pin="CARD_DETECT1"/>
+<pinref part="J2" gate="G$1" pin="CARD_DETECT1"/>
 <wire x1="-35.56" y1="-60.96" x2="-40.64" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-60.96" x2="-40.64" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="MICROSD" gate="G$1" pin="CARD_DETECT"/>
+<pinref part="J2" gate="G$1" pin="CARD_DETECT"/>
 <wire x1="-40.64" y1="-58.42" x2="-35.56" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-58.42" x2="-43.18" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="-40.64" y="-58.42"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="GND"/>
+<pinref part="U9" gate="G$1" pin="GND"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="-17.78" y1="-15.24" x2="-20.32" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RESET" gate="G$1" pin="2"/>
-<pinref part="GND37" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="200GACCEL" gate="G$1" pin="GND@2"/>
+<pinref part="U8" gate="G$1" pin="GND@2"/>
 <wire x1="224.79" y1="1.27" x2="224.79" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="224.79" y1="-2.54" x2="220.98" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="200GACCEL" gate="G$1" pin="GND@1"/>
+<pinref part="U8" gate="G$1" pin="GND@1"/>
 <wire x1="220.98" y1="-2.54" x2="220.98" y2="1.27" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <junction x="220.98" y="-2.54"/>
@@ -9702,34 +9553,34 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="THIRD" gate="G$1" pin="S"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="FOURTH" gate="G$1" pin="S"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SECOND" gate="G$1" pin="S"/>
+<pinref part="Q4" gate="G$1" pin="S"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="FIRST" gate="G$1" pin="S"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PWR" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 <wire x1="20.32" y1="83.82" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SDACT" gate="G$1" pin="C"/>
+<pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="15.24" y1="88.9" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="88.9" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
 <junction x="20.32" y="83.82"/>
-<pinref part="RSSI" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="15.24" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="93.98" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
 <junction x="20.32" y="88.9"/>
-<pinref part="FIX" gate="G$1" pin="C"/>
+<pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="15.24" y1="99.06" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="99.06" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 <junction x="20.32" y="93.98"/>
@@ -9755,19 +9606,19 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <segment>
 <wire x1="142.24" y1="-33.02" x2="142.24" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<pinref part="E4" gate="G$1" pin="C"/>
+<pinref part="D9" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="-33.02" x2="139.7" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-33.02" x2="142.24" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="142.24" y="-33.02"/>
-<pinref part="E3" gate="G$1" pin="C"/>
+<pinref part="D8" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="-27.94" x2="139.7" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-27.94" x2="142.24" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="142.24" y="-27.94"/>
-<pinref part="E2" gate="G$1" pin="C"/>
+<pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="-22.86" x2="139.7" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-22.86" x2="142.24" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="142.24" y="-22.86"/>
-<pinref part="E1" gate="G$1" pin="C"/>
+<pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="-17.78" x2="139.7" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -9792,10 +9643,21 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S2" gate="S" pin="4"/>
+<pinref part="GND37" gate="1" pin="GND"/>
+<pinref part="S2" gate="S" pin="3"/>
+<wire x1="-152.4" y1="48.26" x2="-149.86" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-149.86" y="48.26"/>
+</segment>
 </net>
 <net name="VCC3" class="1">
 <segment>
-<pinref part="3.3VREG" gate="G$1" pin="OUT"/>
+<pinref part="U3" gate="G$1" pin="OUT"/>
 <wire x1="-63.5" y1="93.98" x2="-81.28" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="93.98" x2="-92.71" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-92.71" y1="93.98" x2="-105.41" y2="93.98" width="0.1524" layer="91"/>
@@ -9811,10 +9673,8 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <wire x1="-116.84" y1="104.14" x2="-129.54" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ALTIMETER" gate="G$1" pin="VDDA"/>
 <wire x1="124.46" y1="30.48" x2="119.38" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="30.48" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="ALTIMETER" gate="G$1" pin="VDDD"/>
 <wire x1="119.38" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="27.94" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 <junction x="119.38" y="27.94"/>
@@ -9822,12 +9682,14 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="C8" gate="G$1" pin="1"/>
 <junction x="119.38" y="30.48"/>
 <label x="132.08" y="17.78" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="VDD"/>
+<pinref part="U1" gate="G$1" pin="VDDIO"/>
 </segment>
 <segment>
-<pinref part="16GACCEL" gate="G$1" pin="VDD_IO"/>
+<pinref part="U6" gate="G$1" pin="VDD_IO"/>
 <wire x1="137.16" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="104.14" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="16GACCEL" gate="G$1" pin="VDD"/>
+<pinref part="U6" gate="G$1" pin="VDD"/>
 <wire x1="132.08" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="71.12" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 <junction x="132.08" y="71.12"/>
@@ -9842,16 +9704,16 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </segment>
 <segment>
 <wire x1="170.18" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="GYRO" gate="G$1" pin="VDD_IO"/>
+<pinref part="U7" gate="G$1" pin="VDD_IO"/>
 <wire x1="177.8" y1="101.6" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="83.82" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
 <junction x="177.8" y="101.6"/>
-<pinref part="GYRO" gate="G$1" pin="VDD@2"/>
+<pinref part="U7" gate="G$1" pin="VDD@2"/>
 <wire x1="185.42" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="101.6" x2="198.12" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="GYRO" gate="G$1" pin="VDD@1"/>
+<pinref part="U7" gate="G$1" pin="VDD@1"/>
 <wire x1="195.58" y1="101.6" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
 <junction x="195.58" y="101.6"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -9860,7 +9722,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <label x="170.18" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="GPS" gate="G$1" pin="VCC"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="-17.78" y1="48.26" x2="-20.32" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="48.26" x2="-20.32" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="58.42" x2="-33.02" y2="58.42" width="0.1524" layer="91"/>
@@ -9873,7 +9735,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <junction x="-33.02" y="58.42"/>
 </segment>
 <segment>
-<pinref part="XBEE" gate="G$1" pin="VCC"/>
+<pinref part="J5" gate="G$1" pin="VCC"/>
 <wire x1="-114.3" y1="-88.9" x2="-119.38" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="-88.9" x2="-119.38" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="-119.38" y1="-81.28" x2="-121.92" y2="-81.28" width="0.1524" layer="91"/>
@@ -9886,7 +9748,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <junction x="-121.92" y="-81.28"/>
 </segment>
 <segment>
-<pinref part="MICROSD" gate="G$1" pin="VDD"/>
+<pinref part="J2" gate="G$1" pin="VDD"/>
 <wire x1="-35.56" y1="-86.36" x2="-50.8" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-55.88" y="-86.36" size="1.778" layer="95"/>
 <pinref part="C23" gate="G$1" pin="1"/>
@@ -9894,15 +9756,15 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <junction x="-50.8" y="-86.36"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="VCC"/>
+<pinref part="U9" gate="G$1" pin="VCC"/>
 <wire x1="-40.64" y1="-15.24" x2="-53.34" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-52.578" y="-14.986" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="200GACCEL" gate="G$1" pin="VS@2"/>
+<pinref part="U8" gate="G$1" pin="VS@2"/>
 <wire x1="220.98" y1="29.21" x2="220.98" y2="34.29" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="34.29" x2="223.52" y2="34.29" width="0.1524" layer="91"/>
-<pinref part="200GACCEL" gate="G$1" pin="VS@1"/>
+<pinref part="U8" gate="G$1" pin="VS@1"/>
 <wire x1="223.52" y1="34.29" x2="224.79" y2="34.29" width="0.1524" layer="91"/>
 <wire x1="224.79" y1="34.29" x2="224.79" y2="29.21" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -9927,9 +9789,9 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="RA2" gate="G$1" pin="D1"/>
 <wire x1="73.66" y1="48.26" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 <label x="68.58" y="40.64" size="1.778" layer="95" rot="R90"/>
-<pinref part="SCLSHIFT" gate="G$1" pin="GTE"/>
+<pinref part="Q2" gate="G$1" pin="GTE"/>
 <wire x1="96.52" y1="96.52" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="SDASHIFT" gate="G$1" pin="GTE"/>
+<pinref part="Q1" gate="G$1" pin="GTE"/>
 <wire x1="96.52" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
@@ -9941,7 +9803,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <net name="MEGASDA" class="0">
 <segment>
 <wire x1="40.64" y1="99.06" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="SDASHIFT" gate="G$1" pin="DRN"/>
+<pinref part="Q1" gate="G$1" pin="DRN"/>
 <wire x1="48.26" y1="99.06" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="36.068" y="99.568" size="1.778" layer="95"/>
 <wire x1="48.26" y1="99.06" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
@@ -9950,7 +9812,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <wire x1="48.26" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MEGA" gate="G$1" pin="20(SDA)"/>
+<pinref part="J3" gate="G$1" pin="20(SDA)"/>
 <wire x1="-83.82" y1="38.1" x2="-68.58" y2="38.1" width="0.1524" layer="91"/>
 <label x="-78.74" y="38.1" size="1.778" layer="95"/>
 </segment>
@@ -9958,7 +9820,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <net name="MEGASCL" class="0">
 <segment>
 <wire x1="40.64" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SCLSHIFT" gate="G$1" pin="DRN"/>
+<pinref part="Q2" gate="G$1" pin="DRN"/>
 <wire x1="53.34" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
 <label x="39.37" y="84.582" size="1.778" layer="95"/>
 <wire x1="53.34" y1="83.82" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
@@ -9968,14 +9830,14 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <wire x1="63.5" y1="73.66" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MEGA" gate="G$1" pin="21(SCL)"/>
+<pinref part="J3" gate="G$1" pin="21(SCL)"/>
 <wire x1="-83.82" y1="35.56" x2="-68.58" y2="35.56" width="0.1524" layer="91"/>
 <label x="-78.74" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="SDASHIFT" gate="G$1" pin="SRC"/>
+<pinref part="Q1" gate="G$1" pin="SRC"/>
 <wire x1="76.2" y1="101.6" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 <label x="88.9" y="107.442" size="1.778" layer="95"/>
 <wire x1="76.2" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
@@ -9986,24 +9848,24 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <junction x="81.28" y="106.68"/>
 </segment>
 <segment>
-<pinref part="ALTIMETER" gate="G$1" pin="SDA"/>
 <wire x1="149.86" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
 <label x="154.94" y="33.02" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
-<pinref part="16GACCEL" gate="G$1" pin="SDA"/>
+<pinref part="U6" gate="G$1" pin="SDA"/>
 <wire x1="137.16" y1="99.06" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
 <label x="119.38" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="GYRO" gate="G$1" pin="SDA/SDI"/>
+<pinref part="U7" gate="G$1" pin="SDA/SDI"/>
 <wire x1="185.42" y1="78.74" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 <label x="170.18" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="SCLSHIFT" gate="G$1" pin="SRC"/>
+<pinref part="Q2" gate="G$1" pin="SRC"/>
 <wire x1="76.2" y1="86.36" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
 <label x="89.154" y="92.456" size="1.778" layer="95"/>
 <wire x1="76.2" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
@@ -10015,36 +9877,36 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <junction x="78.74" y="91.44"/>
 </segment>
 <segment>
-<pinref part="ALTIMETER" gate="G$1" pin="SCL"/>
 <wire x1="149.86" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
 <label x="154.94" y="30.48" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
-<pinref part="16GACCEL" gate="G$1" pin="SCL"/>
+<pinref part="U6" gate="G$1" pin="SCL"/>
 <wire x1="137.16" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
 <label x="119.38" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="GYRO" gate="G$1" pin="SCL/SCP"/>
+<pinref part="U7" gate="G$1" pin="SCL/SCP"/>
 <wire x1="185.42" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
 <label x="170.18" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGA5V" class="1">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="5V@0"/>
+<pinref part="J3" gate="G$1" pin="5V@0"/>
 <wire x1="-144.78" y1="53.34" x2="-124.46" y2="53.34" width="0.1524" layer="91"/>
 <label x="-144.78" y="53.848" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGAA0" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A0(RX0)"/>
+<pinref part="J3" gate="G$1" pin="A0(RX0)"/>
 <wire x1="-124.46" y1="35.56" x2="-144.78" y2="35.56" width="0.1524" layer="91"/>
 <label x="-144.78" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="200GACCEL" gate="G$1" pin="X"/>
+<pinref part="U8" gate="G$1" pin="X"/>
 <wire x1="217.17" y1="1.27" x2="217.17" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="217.17" y1="-5.08" x2="204.47" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
@@ -10055,12 +9917,12 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="MEGAA1" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A1(TX0)"/>
+<pinref part="J3" gate="G$1" pin="A1(TX0)"/>
 <wire x1="-124.46" y1="33.02" x2="-144.78" y2="33.02" width="0.1524" layer="91"/>
 <label x="-144.78" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="200GACCEL" gate="G$1" pin="Y"/>
+<pinref part="U8" gate="G$1" pin="Y"/>
 <wire x1="209.55" y1="8.89" x2="199.39" y2="8.89" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="199.39" y1="8.89" x2="181.61" y2="8.89" width="0.1524" layer="91"/>
@@ -10070,7 +9932,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="MEGAA2" class="0">
 <segment>
-<pinref part="200GACCEL" gate="G$1" pin="Z"/>
+<pinref part="U8" gate="G$1" pin="Z"/>
 <wire x1="217.17" y1="29.21" x2="217.17" y2="31.75" width="0.1524" layer="91"/>
 <wire x1="217.17" y1="31.75" x2="203.2" y2="31.75" width="0.1524" layer="91"/>
 <pinref part="C26" gate="G$1" pin="1"/>
@@ -10079,7 +9941,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <label x="181.61" y="31.75" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A2"/>
+<pinref part="J3" gate="G$1" pin="A2"/>
 <wire x1="-124.46" y1="30.48" x2="-144.78" y2="30.48" width="0.1524" layer="91"/>
 <label x="-144.78" y="30.48" size="1.778" layer="95"/>
 </segment>
@@ -10087,7 +9949,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <net name="N$7" class="0">
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="16GACCEL" gate="G$1" pin="C1"/>
+<pinref part="U6" gate="G$1" pin="C1"/>
 <wire x1="129.54" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10096,7 +9958,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="78.74" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="16GACCEL" gate="G$1" pin="SETP_C2"/>
+<pinref part="U6" gate="G$1" pin="SETP_C2"/>
 <wire x1="119.38" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10105,13 +9967,13 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="71.12" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="16GACCEL" gate="G$1" pin="SETC_C2"/>
+<pinref part="U6" gate="G$1" pin="SETC_C2"/>
 <wire x1="119.38" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="GYRO" gate="G$1" pin="GND@14"/>
+<pinref part="U7" gate="G$1" pin="GND@14"/>
 <wire x1="200.66" y1="96.52" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
@@ -10119,31 +9981,31 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="GPS" gate="G$1" pin="EX_ANT"/>
+<pinref part="U2" gate="G$1" pin="EX_ANT"/>
 <wire x1="12.7" y1="25.4" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GPS_EXT" gate="G$1" pin="SIGNAL"/>
 </segment>
 </net>
 <net name="MEGARX1" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="19(RX1)"/>
+<pinref part="J3" gate="G$1" pin="19(RX1)"/>
 <wire x1="-83.82" y1="40.64" x2="-68.58" y2="40.64" width="0.1524" layer="91"/>
 <label x="-78.74" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="XBEESELECT" gate="G$1" pin="4"/>
+<pinref part="S1" gate="G$1" pin="4"/>
 <wire x1="-137.16" y1="-93.98" x2="-149.86" y2="-93.98" width="0.1524" layer="91"/>
 <label x="-149.86" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGARX2" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="17(RX2)"/>
+<pinref part="J3" gate="G$1" pin="17(RX2)"/>
 <wire x1="-83.82" y1="45.72" x2="-68.58" y2="45.72" width="0.1524" layer="91"/>
 <label x="-78.74" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="GPS" gate="G$1" pin="TX"/>
+<pinref part="U2" gate="G$1" pin="TX"/>
 <wire x1="-17.78" y1="27.94" x2="-22.86" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="27.94" x2="-22.86" y2="15.24" width="0.1524" layer="91"/>
 <label x="-22.86" y="15.24" size="1.778" layer="95" rot="R90"/>
@@ -10151,79 +10013,79 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="MEGARX0" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="0(RX0)"/>
+<pinref part="J3" gate="G$1" pin="0(RX0)"/>
 <wire x1="-124.46" y1="-5.08" x2="-144.78" y2="-5.08" width="0.1524" layer="91"/>
 <label x="-144.78" y="-5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="XBEESELECT" gate="G$1" pin="6"/>
+<pinref part="S1" gate="G$1" pin="6"/>
 <wire x1="-137.16" y1="-88.9" x2="-149.86" y2="-88.9" width="0.1524" layer="91"/>
 <label x="-149.86" y="-88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGATX0" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="1(TX0)"/>
+<pinref part="J3" gate="G$1" pin="1(TX0)"/>
 <wire x1="-124.46" y1="-7.62" x2="-144.78" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-144.78" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="1A"/>
+<pinref part="U9" gate="G$1" pin="1A"/>
 <wire x1="-40.64" y1="-17.78" x2="-53.34" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-53.34" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGATX1" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="18(TX1)"/>
+<pinref part="J3" gate="G$1" pin="18(TX1)"/>
 <wire x1="-83.82" y1="43.18" x2="-68.58" y2="43.18" width="0.1524" layer="91"/>
 <label x="-78.74" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="2A"/>
+<pinref part="U9" gate="G$1" pin="2A"/>
 <wire x1="-40.64" y1="-20.32" x2="-53.34" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-53.34" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGATX2" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="16(TX2)"/>
+<pinref part="J3" gate="G$1" pin="16(TX2)"/>
 <wire x1="-83.82" y1="48.26" x2="-68.58" y2="48.26" width="0.1524" layer="91"/>
 <label x="-78.74" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="3A"/>
+<pinref part="U9" gate="G$1" pin="3A"/>
 <wire x1="-40.64" y1="-22.86" x2="-53.34" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-53.34" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX0" class="0">
 <segment>
-<pinref part="XBEESELECT" gate="G$1" pin="3"/>
+<pinref part="S1" gate="G$1" pin="3"/>
 <wire x1="-137.16" y1="-96.52" x2="-149.86" y2="-96.52" width="0.1524" layer="91"/>
 <label x="-149.86" y="-96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="1Y"/>
+<pinref part="U9" gate="G$1" pin="1Y"/>
 <wire x1="-20.32" y1="-17.78" x2="-7.62" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-12.7" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX1" class="0">
 <segment>
-<pinref part="CONV" gate="G$1" pin="2Y"/>
+<pinref part="U9" gate="G$1" pin="2Y"/>
 <wire x1="-20.32" y1="-20.32" x2="-7.62" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-12.7" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="XBEESELECT" gate="G$1" pin="1"/>
+<pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="-137.16" y1="-101.6" x2="-149.86" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-149.86" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XRSSI" class="0">
 <segment>
-<pinref part="XBEE" gate="G$1" pin="PWM0/RSSI"/>
+<pinref part="J5" gate="G$1" pin="PWM0/RSSI"/>
 <wire x1="-114.3" y1="-101.6" x2="-121.92" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="-101.6" x2="-121.92" y2="-114.3" width="0.1524" layer="91"/>
 <label x="-121.92" y="-111.76" size="1.778" layer="95" rot="R90"/>
@@ -10236,94 +10098,94 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="XBEESELECT" gate="G$1" pin="5"/>
-<pinref part="XBEE" gate="G$1" pin="DOUT"/>
+<pinref part="S1" gate="G$1" pin="5"/>
+<pinref part="J5" gate="G$1" pin="DOUT"/>
 <wire x1="-127" y1="-91.44" x2="-114.3" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="XBEE" gate="G$1" pin="DIN"/>
+<pinref part="J5" gate="G$1" pin="DIN"/>
 <wire x1="-114.3" y1="-93.98" x2="-127" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="XBEESELECT" gate="G$1" pin="2"/>
+<pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="-127" y1="-93.98" x2="-127" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDCS" class="0">
 <segment>
-<pinref part="MICROSD" gate="G$1" pin="CS"/>
+<pinref part="J2" gate="G$1" pin="CS"/>
 <wire x1="-35.56" y1="-76.2" x2="-48.26" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-48.26" y="-76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="6Y"/>
+<pinref part="U9" gate="G$1" pin="6Y"/>
 <wire x1="-20.32" y1="-30.48" x2="-7.62" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-12.7" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGASDCS" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="48"/>
+<pinref part="J3" gate="G$1" pin="48"/>
 <wire x1="-83.82" y1="-33.02" x2="-71.12" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-81.28" y="-33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="6A"/>
+<pinref part="U9" gate="G$1" pin="6A"/>
 <wire x1="-40.64" y1="-30.48" x2="-53.34" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-55.88" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGASCLK" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="52"/>
+<pinref part="J3" gate="G$1" pin="52"/>
 <wire x1="-83.82" y1="-43.18" x2="-71.12" y2="-43.18" width="0.1524" layer="91"/>
 <label x="-81.28" y="-43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="5A"/>
+<pinref part="U9" gate="G$1" pin="5A"/>
 <wire x1="-40.64" y1="-27.94" x2="-53.34" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-55.88" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGAMOSI" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="51"/>
+<pinref part="J3" gate="G$1" pin="51"/>
 <wire x1="-83.82" y1="-40.64" x2="-71.12" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-81.28" y="-40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="4A"/>
+<pinref part="U9" gate="G$1" pin="4A"/>
 <wire x1="-40.64" y1="-25.4" x2="-53.34" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-55.88" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGAMISO" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="50"/>
+<pinref part="J3" gate="G$1" pin="50"/>
 <wire x1="-83.82" y1="-38.1" x2="-71.12" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-81.28" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MICROSD" gate="G$1" pin="DATA_OUT"/>
+<pinref part="J2" gate="G$1" pin="DATA_OUT"/>
 <wire x1="-35.56" y1="-68.58" x2="-48.26" y2="-68.58" width="0.1524" layer="91"/>
 <label x="-48.006" y="-68.326" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<pinref part="MICROSD" gate="G$1" pin="SCLK"/>
+<pinref part="J2" gate="G$1" pin="SCLK"/>
 <wire x1="-35.56" y1="-73.66" x2="-48.26" y2="-73.66" width="0.1524" layer="91"/>
 <label x="-48.26" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="5Y"/>
+<pinref part="U9" gate="G$1" pin="5Y"/>
 <wire x1="-20.32" y1="-27.94" x2="-7.62" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-12.7" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="MICROSD" gate="G$1" pin="DATA_IN"/>
+<pinref part="J2" gate="G$1" pin="DATA_IN"/>
 <label x="-48.26" y="-71.12" size="1.778" layer="95"/>
 <wire x1="-48.26" y1="-71.12" x2="-35.56" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
@@ -10333,14 +10195,14 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <label x="-22.86" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONV" gate="G$1" pin="4Y"/>
+<pinref part="U9" gate="G$1" pin="4Y"/>
 <wire x1="-20.32" y1="-25.4" x2="-7.62" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-12.7" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IOREF" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="IOREF"/>
+<pinref part="J3" gate="G$1" pin="IOREF"/>
 <wire x1="-124.46" y1="40.64" x2="-144.78" y2="40.64" width="0.1524" layer="91"/>
 <label x="-144.78" y="40.64" size="1.778" layer="95"/>
 </segment>
@@ -10357,15 +10219,18 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="RESET"/>
+<pinref part="J3" gate="G$1" pin="RESET"/>
 <wire x1="-124.46" y1="38.1" x2="-149.86" y2="38.1" width="0.1524" layer="91"/>
 <label x="-144.78" y="38.1" size="1.778" layer="95"/>
-<pinref part="RESET" gate="G$1" pin="1"/>
+<pinref part="S2" gate="S" pin="2"/>
+<pinref part="S2" gate="S" pin="1"/>
+<wire x1="-149.86" y1="38.1" x2="-152.4" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-149.86" y="38.1"/>
 </segment>
 </net>
 <net name="VIN" class="1">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="VIN"/>
+<pinref part="J3" gate="G$1" pin="VIN"/>
 <wire x1="-124.46" y1="55.88" x2="-144.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="-144.78" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -10377,7 +10242,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <wire x1="-83.82" y1="91.44" x2="-76.2" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="91.44" x2="-63.5" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-76.2" y="91.44"/>
-<pinref part="3.3VREG" gate="G$1" pin="IN"/>
+<pinref part="U3" gate="G$1" pin="IN"/>
 <wire x1="-83.82" y1="91.44" x2="-83.82" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-83.82" y="91.44"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -10385,16 +10250,16 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="BATT+" class="2">
 <segment>
-<pinref part="EXTBATT" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="-139.7" y1="91.44" x2="-127" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <label x="-137.16" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PYRO" gate="G$1" pin="2"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="148.59" y1="-95.25" x2="144.78" y2="-95.25" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-95.25" x2="144.78" y2="-100.33" width="0.1524" layer="91"/>
-<pinref part="PYRO" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="-100.33" x2="148.59" y2="-100.33" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-100.33" x2="144.78" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="144.78" y="-100.33"/>
@@ -10403,10 +10268,10 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="FIRST" gate="G$1" pin="D"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="101.6" y1="-119.38" x2="138.43" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="-119.38" x2="138.43" y2="-90.17" width="0.1524" layer="91"/>
-<pinref part="PYRO" gate="G$1" pin="3"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="138.43" y1="-90.17" x2="148.59" y2="-90.17" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-119.38" x2="60.96" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-119.38" x2="60.96" y2="-93.98" width="0.1524" layer="91"/>
@@ -10417,10 +10282,10 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="SECOND" gate="G$1" pin="D"/>
+<pinref part="Q4" gate="G$1" pin="D"/>
 <wire x1="100.33" y1="-99.06" x2="133.35" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="133.35" y1="-99.06" x2="133.35" y2="-85.09" width="0.1524" layer="91"/>
-<pinref part="PYRO" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 <wire x1="133.35" y1="-85.09" x2="148.59" y2="-85.09" width="0.1524" layer="91"/>
 <pinref part="RA3" gate="G$1" pin="C2"/>
 <wire x1="55.88" y1="-88.9" x2="63.5" y2="-88.9" width="0.1524" layer="91"/>
@@ -10430,10 +10295,10 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="PYRO" gate="G$1" pin="6"/>
+<pinref part="J4" gate="G$1" pin="6"/>
 <wire x1="148.59" y1="-74.93" x2="138.43" y2="-74.93" width="0.1524" layer="91"/>
 <wire x1="138.43" y1="-74.93" x2="138.43" y2="-59.69" width="0.1524" layer="91"/>
-<pinref part="FOURTH" gate="G$1" pin="D"/>
+<pinref part="Q6" gate="G$1" pin="D"/>
 <wire x1="138.43" y1="-59.69" x2="101.346" y2="-59.69" width="0.1524" layer="91"/>
 <wire x1="101.346" y1="-59.69" x2="60.96" y2="-59.69" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-59.69" x2="60.96" y2="-78.74" width="0.1524" layer="91"/>
@@ -10444,12 +10309,12 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="PYRO2" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="43"/>
+<pinref part="J3" gate="G$1" pin="43"/>
 <wire x1="-83.82" y1="-20.32" x2="-71.12" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-80.01" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SECOND" gate="G$1" pin="G"/>
+<pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="92.71" y1="-104.14" x2="83.82" y2="-104.14" width="0.1524" layer="91"/>
 <label x="83.82" y="-104.14" size="1.778" layer="95"/>
 </segment>
@@ -10466,12 +10331,12 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="PYRO1" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="42"/>
+<pinref part="J3" gate="G$1" pin="42"/>
 <wire x1="-83.82" y1="-17.78" x2="-71.12" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-80.01" y="-17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FIRST" gate="G$1" pin="G"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="93.98" y1="-124.46" x2="85.09" y2="-124.46" width="0.1524" layer="91"/>
 <label x="83.82" y="-124.46" size="1.778" layer="95"/>
 </segment>
@@ -10488,12 +10353,12 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="PYRO3" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="44"/>
+<pinref part="J3" gate="G$1" pin="44"/>
 <wire x1="-83.82" y1="-22.86" x2="-71.12" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-80.01" y="-22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="THIRD" gate="G$1" pin="G"/>
+<pinref part="Q5" gate="G$1" pin="G"/>
 <wire x1="93.98" y1="-83.82" x2="83.82" y2="-83.82" width="0.1524" layer="91"/>
 <label x="83.82" y="-83.82" size="1.778" layer="95"/>
 </segment>
@@ -10510,12 +10375,12 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="PYRO4" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="45"/>
+<pinref part="J3" gate="G$1" pin="45"/>
 <wire x1="-83.82" y1="-25.4" x2="-71.12" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-80.01" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="FOURTH" gate="G$1" pin="G"/>
+<pinref part="Q6" gate="G$1" pin="G"/>
 <wire x1="93.726" y1="-64.77" x2="84.582" y2="-64.77" width="0.1524" layer="91"/>
 <label x="83.82" y="-63.5" size="1.778" layer="95"/>
 </segment>
@@ -10533,30 +10398,30 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <net name="N$1" class="0">
 <segment>
 <pinref part="RA1" gate="G$1" pin="D2"/>
-<pinref part="PWR" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="RA1" gate="G$1" pin="C2"/>
-<pinref part="SDACT" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="RA1" gate="G$1" pin="B2"/>
-<pinref part="RSSI" gate="G$1" pin="A"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="RA1" gate="G$1" pin="A2"/>
-<pinref part="FIX" gate="G$1" pin="A"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="GPSFIX" class="0">
 <segment>
-<pinref part="GPS" gate="G$1" pin="3D-FIX"/>
+<pinref part="U2" gate="G$1" pin="3D-FIX"/>
 <wire x1="-17.78" y1="38.1" x2="-35.56" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="38.1" x2="-35.56" y2="15.24" width="0.1524" layer="91"/>
 <label x="-35.56" y="15.24" size="1.778" layer="95" rot="R90"/>
@@ -10569,9 +10434,9 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="THIRD" gate="G$1" pin="D"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
 <junction x="101.6" y="-78.74"/>
-<pinref part="PYRO" gate="G$1" pin="5"/>
+<pinref part="J4" gate="G$1" pin="5"/>
 <wire x1="101.6" y1="-78.74" x2="148.59" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="148.59" y1="-78.74" x2="148.59" y2="-80.01" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-78.74" x2="63.5" y2="-83.82" width="0.1524" layer="91"/>
@@ -10582,7 +10447,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="MEGAA3" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A3"/>
+<pinref part="J3" gate="G$1" pin="A3"/>
 <wire x1="-124.46" y1="27.94" x2="-144.78" y2="27.94" width="0.1524" layer="91"/>
 <label x="-144.78" y="27.94" size="1.778" layer="95"/>
 </segment>
@@ -10598,7 +10463,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="MEGAA4" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A4"/>
+<pinref part="J3" gate="G$1" pin="A4"/>
 <wire x1="-124.46" y1="25.4" x2="-144.78" y2="25.4" width="0.1524" layer="91"/>
 <label x="-144.78" y="25.4" size="1.778" layer="95"/>
 </segment>
@@ -10614,7 +10479,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="MEGAA5" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A5"/>
+<pinref part="J3" gate="G$1" pin="A5"/>
 <wire x1="-124.46" y1="22.86" x2="-144.78" y2="22.86" width="0.1524" layer="91"/>
 <label x="-144.78" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -10630,7 +10495,7 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="MEGAA6" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A6"/>
+<pinref part="J3" gate="G$1" pin="A6"/>
 <wire x1="-124.46" y1="20.32" x2="-144.78" y2="20.32" width="0.1524" layer="91"/>
 <label x="-144.78" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -10646,12 +10511,12 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 </net>
 <net name="TX2" class="0">
 <segment>
-<pinref part="CONV" gate="G$1" pin="3Y"/>
+<pinref part="U9" gate="G$1" pin="3Y"/>
 <wire x1="-20.32" y1="-22.86" x2="-7.62" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-12.7" y="-22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="GPS" gate="G$1" pin="RX"/>
+<pinref part="U2" gate="G$1" pin="RX"/>
 <wire x1="-17.78" y1="25.4" x2="-20.32" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="25.4" x2="-20.32" y2="15.24" width="0.1524" layer="91"/>
 <label x="-20.32" y="15.24" size="1.778" layer="95" rot="R90"/>
@@ -10660,30 +10525,30 @@ Used by Vishay thick film resistor arrays with 4 elements and longer end termina
 <net name="N$16" class="0">
 <segment>
 <pinref part="RA5" gate="G$1" pin="D2"/>
-<pinref part="E4" gate="G$1" pin="A"/>
+<pinref part="D9" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="RA5" gate="G$1" pin="C2"/>
-<pinref part="E3" gate="G$1" pin="A"/>
+<pinref part="D8" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="RA5" gate="G$1" pin="B2"/>
-<pinref part="E2" gate="G$1" pin="A"/>
+<pinref part="D7" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="RA5" gate="G$1" pin="A2"/>
-<pinref part="E1" gate="G$1" pin="A"/>
+<pinref part="D6" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="MEGAA7" class="0">
 <segment>
-<pinref part="MEGA" gate="G$1" pin="A7"/>
+<pinref part="J3" gate="G$1" pin="A7"/>
 <wire x1="-124.46" y1="17.78" x2="-144.78" y2="17.78" width="0.1524" layer="91"/>
 <label x="-144.78" y="17.78" size="1.778" layer="95"/>
 </segment>
