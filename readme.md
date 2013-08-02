@@ -17,11 +17,6 @@ and [Sparkfun Eagle Libraries](https://github.com/sparkfun/SparkFun-Eagle-Librar
 My library of modified parts is [available here](https://github.com/zortness/zort-eagle-library).
 
 
-Prototype Version 1
-![protov1a](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_1.jpg)
-![protov1b](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_2.jpg)
-
-
 Concept
 --------
 This shield is geared toward aviation purposes, specifically rocketry. The board itself does not dictate how it is used.
@@ -33,25 +28,25 @@ Features
 * Supports 5V and 3.3V boards (Mega or Due)
 * Supports MicroSD cards that can operate in SPI mode
 * Supports all XBee models, using UART Serial for communication
-** User selectable XBee on UART0 or UART1 via switch
-** Tie-down holes included in layout
+* -- User selectable XBee on UART0 or UART1 via switch
+* -- Tie-down holes included in layout
 * 10Hz GPS tied to UART2
-** External GPS Antenna u.FL connector
+* -- External GPS Antenna u.FL connector
 * High Sensitivity BMP180 Altimeter (barometric pressure and temperature)
 * Full 9-degrees-of-freedom capabilities
-** 3-Axis 16G accelerometer and magnometer (LSM303DLHCTR)
-** 3-Axis 8-gauss gyroscope (L3GD20TR)
+* -- 3-Axis 16G accelerometer and magnometer (LSM303DLHCTR)
+* -- 3-Axis 8-gauss gyroscope (L3GD20TR)
 * 3-Axis 200G accelerometer for high-force calculations (ADXL377)
 * External reverse-polarity-protected power supply via JST2 connector
-** Will also power the Arduino
-** Can also be powered by the Arduino over USB
-** Up to 18V
+* -- Will also power the Arduino
+* -- Can also be powered by the Arduino over USB
+* -- Up to 18V
 * Input voltage measuring at ~1:6 scale
 * 4x high-amp MOSFETs with continuity detection
-** Designed for rocket deployment pyrotechnics
+* -- Designed for rocket deployment pyrotechnics
 * Automatic level-shifting for sensors (up to 5V)
 * Buzzer for making loud noises
-** MOSFET controlled, attached to PWM pin 8
+* -- MOSFET controlled, attached to PWM pin 8
 * Lots of pretty flashing lights
 
 See the [Bill of Materials](https://github.com/zortness/rocket-mega-shield/blob/rev2/bom.md)
@@ -63,3 +58,12 @@ Versions
 --------
 * RocketDuino Revision 1 - Initial prototype board, June 2013 
 * (unnamed) Revision 2 - Second prototype board, intended for wider production, August 2013
+
+
+Prototype Images
+----------------
+Revision 1
+
+
+![protov1a](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_1.jpg)
+![protov1b](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_2.jpg)
