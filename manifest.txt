@@ -1,4 +1,4 @@
-Partlist exported from C:/Users/Kurtis/Projects/public/rocket-mega-shield/rocket-mega-shield.sch at 8/2/2013 12:29:03 AM
+Partlist exported from C:/Users/Kurtis/Projects/public/rocket-mega-shield/rocket-mega-shield.sch at 8/2/2013 2:05:06 PM
 
 Part    Value            Device                  Package             Description                                                                                                   PROD_ID    
 C1      100uF            C-USC1206               C1206               CAPACITOR, American symbol                                                                                               
@@ -43,8 +43,10 @@ Q3      SI7112DN         MOSFET-NCHANNELSI7820DN POWERPAK1212-8      Common NMOS
 Q4      SI7112DN         MOSFET-NCHANNELSI7820DN POWERPAK1212-8      Common NMOSFET Parts                                                                                          TRANS-11055
 Q5      SI7112DN         MOSFET-NCHANNELSI7820DN POWERPAK1212-8      Common NMOSFET Parts                                                                                          TRANS-11055
 Q6      SI7112DN         MOSFET-NCHANNELSI7820DN POWERPAK1212-8      Common NMOSFET Parts                                                                                          TRANS-11055
+Q7      BSS138           BSS138                  SOT23                                                                                                                                        
 R1      620k             R-US_R1206              R1206               RESISTOR, American symbol                                                                                                
 R2      110k             R-US_R1206              R1206               RESISTOR, American symbol                                                                                                
+R3      10k              R-US_R1206              R1206               RESISTOR, American symbol                                                                                                
 RA1     330              RESISTOR_CRA06S08       1206X4RESISTORARRAY 4-Channel Resistor Array Vishay CRA06S08 series                                                                          
 RA2     10k              RESISTOR_CRA06S08       1206X4RESISTORARRAY 4-Channel Resistor Array Vishay CRA06S08 series                                                                          
 RA3     620k             RESISTOR_CRA06S08       1206X4RESISTORARRAY 4-Channel Resistor Array Vishay CRA06S08 series                                                                          
@@ -53,6 +55,7 @@ RA5     330              RESISTOR_CRA06S08       1206X4RESISTORARRAY 4-Channel R
 RA6     10k              RESISTOR_CRA06S08       1206X4RESISTORARRAY 4-Channel Resistor Array Vishay CRA06S08 series                                                                          
 S1      AYZ0202          AYZ0202                 AYZ0202             SPDT Slide Switch                                                                                                        
 S2      KMR2             TAC_SWITCHKMR2          TACTILE_KMR2        Momentary Switch                                                                                                         
+SG1     CCV084           BUZZERSMD2              BUZZER-CCV          Buzzer 12mm                                                                                                              
 U1      BMP180           BMP180                  BMP180              Bosch BMP180 Altimeter                                                                                                   
 U2      FGPMMOPA6H       GPS_FGPMMOPA6H          FGPMMOPA6H          GPS Module - MTK MT3339 Chipset, -165dBm sensitivity, 22 channels, 10Hz, auto-select external antenna options            
 U3      NCP1117DT33G     NCP1117DT33G            DPAK                NCP1117DT33G 3.3V Voltage Regulator                                                                                      
