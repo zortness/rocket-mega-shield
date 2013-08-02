@@ -1,9 +1,12 @@
-Rocket Mega Shield
-==================
+Rocket Mega Shield Revision 2
+=============================
 
-![rendering](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/board_v1.png)
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2/board.png)
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2/board_fill.png)
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2/schematic.png)
 
-These are the Eagle files for an Arduino Mega shield with sensors and features targeting rocketry enthusiasts.
+These are the Eagle files for an Arduino Mega shield with sensors and features needed by aviation and rocketry enthusiasts. 
+The board is also designed to be extremely easy to use for any hobbyist application. 
 
 These files are released under the [Creative Commons Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/3.0/) license. 
 You're free to use and modify them for any purpose, including commercial.
@@ -11,8 +14,10 @@ You're free to use and modify them for any purpose, including commercial.
 These files make use of footprints taken from the [Adafruit Eagle Library](https://github.com/adafruit/Adafruit-Eagle-Library) 
 and [Sparkfun Eagle Libraries](https://github.com/sparkfun/SparkFun-Eagle-Libraries). 
 
-My library of modified parts will be available shortly (just cleaning it up).
+My library of modified parts is [available here](https://github.com/zortness/zort-eagle-library).
 
+
+Prototype Version 1
 ![protov1a](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_1.jpg)
 ![protov1b](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_2.jpg)
 
@@ -25,28 +30,36 @@ It can also be used for things like planes, boats, cars, or robotics, though thi
 
 Features
 --------
-* Supports MicroSD cards that can operate in SPI mode. 
-* Supports all XBee models, using UART Serial for communication.
-* User selectable XBee on TX0/RX0 or TX1/RX1 via switch
-* User selectable GPS on TX1/RX1 or TX2/RX2 via switch
-* User selectable 3.3V/5V output scale for analog 55G accelerometer (for Arduino Due)
-* External power supply (non-Arduino)
-* Automatic switching between board power (for debugging) and external power (for use)
-* Two solid-state relays and outputs with screw terminals, connected to external power supply (intended for dual deployment)
-* Automatic level-shifting for I2C sensors (for Arduino Mega)
-* Hopefully doesn't suck
+* Supports 5V and 3.3V boards (Mega or Due)
+* Supports MicroSD cards that can operate in SPI mode
+* Supports all XBee models, using UART Serial for communication
+** User selectable XBee on UART0 or UART1 via switch
+** Tie-down holes included in layout
+* 10Hz GPS tied to UART2
+** External GPS Antenna u.FL connector
+* High Sensitivity BMP180 Altimeter (barometric pressure and temperature)
+* Full 9-degrees-of-freedom capabilities
+** 3-Axis 16G accelerometer and magnometer (LSM303DLHCTR)
+** 3-Axis 8-gauss gyroscope (L3GD20TR)
+* 3-Axis 200G accelerometer for high-force calculations (ADXL377)
+* External reverse-polarity-protected power supply via JST2 connector
+** Will also power the Arduino
+** Can also be powered by the Arduino over USB
+** Up to 18V
+* Input voltage measuring at ~1:6 scale
+* 4x high-amp MOSFETs with continuity detection
+** Designed for rocket deployment pyrotechnics
+* Automatic level-shifting for sensors (up to 5V)
+* Buzzer for making loud noises
+** MOSFET controlled, attached to PWM pin 8
+* Lots of pretty flashing lights
 
-
-Sensors
---------
-* 66 channel 10Hz GPS [FGPMMOPA6H](http://www.adafruit.com/products/790)
-* Barometric Pressure / Temperature Sensor (Altimeter) [Bosch BMP085](http://www.digikey.com/product-detail/en/BMP085/828-1005-1-ND/1987010)
-* 3-axis Gyroscope [ST Microelectronics L3GD20TR](http://www.digikey.com/product-detail/en/L3GD20TR/497-12081-1-ND/2793125)
-* 3-axis 16G Accelerometer [ST Microelectronics LSM303DLHCTR](http://www.digikey.com/product-detail/en/LSM303DLHCTR/497-11918-1-ND/2757636)
-* 2-axis 55G Analog Accelerometer [Analog Devices AD22285-R2](http://www.digikey.com/product-detail/en/AD22285-R2/AD22285-R2CT-ND/774192)
+See the [Bill of Materials](https://github.com/zortness/rocket-mega-shield/blob/rev2/bom.md)
+and [parts manifest](https://github.com/zortness/rocket-mega-shield/blob/rev2/manifest.txt)
+for more information.
 
 
 Versions
 --------
-* RocketDuino V1 - Initial prototype board, June 2013 
-(download [zip](https://github.com/zortness/rocket-mega-shield/archive/v1.zip) or [tar.gz](https://github.com/zortness/rocket-mega-shield/archive/v1.tar.gz))
+* RocketDuino Revision 1 - Initial prototype board, June 2013 
+* (unnamed) Revision 2 - Second prototype board, intended for wider production, August 2013
