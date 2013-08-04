@@ -13,12 +13,12 @@ Integrated Circuits
 * [200G Accelerometer ADXL-377](http://www.digikey.com/product-detail/en/ADXL377BCPZ-RL7/ADXL377BCPZ-RL7CT-ND/3678489): *$11.12*
 * [3-axis Gyro L3GD20](http://www.digikey.com/product-detail/en/L3GD20TR/497-12081-1-ND/2793125): *$6.95*
 * [66 channel 10Hz GPS FGPMMOPA6H](http://www.adafruit.com/products/790): *$29.95*
-* [BSS138 FET](http://www.digikey.com/product-detail/en/BSS138/BSS138CT-ND/244294): *$0.22* (x3 = *$0.66*)
+* [BSS138 FET](http://www.digikey.com/product-detail/en/BSS138/BSS138CT-ND/244294): *$0.22* (x2 = *$0.66*)
 * [Hex Buffer HC4050](http://www.digikey.com/product-detail/en/M74HC4050RM13TR/497-1844-1-ND/592147): *$0.55*
 * [BMP180 Altimeter](http://www.digikey.com/product-detail/en/BMP180/828-1027-1-ND/2688260) *$4.80*
-* [SI7112DN N-Channel MOSFET](http://www.digikey.com/product-detail/en/SI7112DN-T1-GE3/SI7112DN-T1-GE3CT-ND/1995641): *$1.59* (x4 = *$6.36*)
+* [SI7112DN N-Channel MOSFET](http://www.digikey.com/product-detail/en/SI7112DN-T1-GE3/SI7112DN-T1-GE3CT-ND/1995641): *$1.59* (x5 = *$7.95*)
 
-*Total:* 13 pieces **$65.89**
+*Total:* 13 pieces **$67.48**
 
 
 Diodes
@@ -34,11 +34,11 @@ Passives
 **Resistors:**
 * [330 Ohm Resistor](http://www.digikey.com/product-detail/en/CRCW1206330RJNEA/541-330ECT-ND/1181303): *$0.094*
 * [10k Ohm Resistor](http://www.digikey.com/product-detail/en/CRCW120610K0JNEA/541-10KECT-ND/1181339): *$0.094*
-* [110k Ohm Resistor](http://www.digikey.com/product-detail/en/CRCW1206110KJNEA/541-110KECT-ND/1181364): *$0.094*
+* [100k Ohm Resistor](http://www.digikey.com/product-detail/en/CRCW1206110KJNEA/541-110KECT-ND/1181364): *$0.094*
 * [620k Ohm Resistor](http://www.digikey.com/product-detail/en/CRCW1206620KJNEA/541-620KECT-ND/1181382): *$0.094*
 * [330 Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S083330RJTA/CRA6S8330CT-ND/1285912): *$0.093* (x2 = *$0.186*)
 * [10k Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S08310K0JTA/CRA6S810KCT-ND/1285853): *$0.093* (x2 = *$0.186*)
-* [110k Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S083110KJTA/CRA6S8110KCT-ND/1285855): *$0.093*
+* [100k Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S083110KJTA/CRA6S8110KCT-ND/1285855): *$0.093*
 * [620k Ohm x4 Resistor Array](http://www.digikey.com/product-detail/en/CRA06S083620KJTA/CRA6S8620KCT-ND/1285947): *$0.093*
 
 *Total:* 8 pieces, **$0.934**
@@ -71,7 +71,7 @@ Electromechanical
 
 Board Build Cost
 ----------------
-about **$111** (plus shipping, solder, equipment, etc.)
+about **$113** (plus shipping, solder, equipment, etc.)
 
 
 Additional items
