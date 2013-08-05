@@ -197,7 +197,8 @@
 <wire x1="99.06" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="21"/>
 <wire x1="101.6" y1="10.16" x2="101.6" y2="8.255" width="0.1524" layer="21"/>
 <text x="109.5375" y="15.5575" size="1.016" layer="21" ratio="12" rot="R90">OpenSourceAerospace.com</text>
-<text x="55.245" y="10.795" size="1.27" layer="21" ratio="12">RocketMega R2</text>
+<text x="55.88" y="12.065" size="1.27" layer="21" ratio="12">RocketMega R2</text>
+<text x="99.695" y="49.53" size="1.27" layer="22" ratio="12" rot="SMR270">Open Source Hardware</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -1563,6 +1564,83 @@ Pad for KMR 2-Series tactile switches.&lt;br/&gt;
 <text x="19.5505" y="49.276" size="0.6096" layer="21" font="vector" ratio="12" rot="SR180">SDA</text>
 <text x="31.5976" y="4.6355" size="0.6096" layer="21" font="vector" ratio="12" rot="R180">DREF</text>
 </package>
+<package name="OSAEROSPACE_V">
+<circle x="0" y="0" radius="0.360553125" width="0" layer="21"/>
+<polygon width="0" layer="21">
+<vertex x="-0.01856875" y="-1.953578125"/>
+<vertex x="-0.3867125" y="-1.03321875" curve="-43.604306"/>
+<vertex x="-0.3867125" y="-0.96678125"/>
+<vertex x="0" y="0"/>
+<vertex x="0.390034375" y="-0.975084375" curve="-43.605793"/>
+<vertex x="0.390034375" y="-1.024915625"/>
+<vertex x="0.01856875" y="-1.953578125" curve="-136.393856"/>
+</polygon>
+<wire x1="-0.97" y1="-0.53" x2="-1.06" y2="-0.3" width="0.01" layer="21" curve="-13.531515"/>
+<wire x1="-1.06" y1="0.3" x2="-0.96" y2="0.54" width="0.01" layer="21" curve="-13.55524"/>
+<wire x1="-0.53" y1="0.96" x2="-0.3" y2="1.06" width="0.01" layer="21" curve="-13.099843"/>
+<wire x1="0.3" y1="1.06" x2="0.54" y2="0.96" width="0.01" layer="21" curve="-13.612131"/>
+<wire x1="0.96" y1="0.54" x2="1.06" y2="0.3" width="0.01" layer="21" curve="-13.023251"/>
+<wire x1="1.06" y1="-0.3" x2="0.97" y2="-0.52" width="0.01" layer="21" curve="-13.55524"/>
+<polygon width="0.01" layer="21">
+<vertex x="0.974115625" y="-0.557965625"/>
+<vertex x="1.164428125" y="-0.80018125" curve="96.851134"/>
+<vertex x="1.197821875" y="-0.802178125"/>
+<vertex x="1.97100625" y="-0.02899375" curve="44.998191"/>
+<vertex x="2" y="0.041003125"/>
+<vertex x="2" y="0.9618125" curve="45"/>
+<vertex x="1.972996875" y="1.027003125"/>
+<vertex x="1.023665625" y="1.976334375" curve="-30.9616"/>
+<vertex x="0.991884375" y="2.0324625"/>
+<vertex x="0" y="6"/>
+<vertex x="-0.9900125" y="2.03995" curve="-30.964316"/>
+<vertex x="-1.029115625" y="1.970884375"/>
+<vertex x="-1.961925" y="1.038075" curve="44.998623"/>
+<vertex x="-2" y="0.946153125"/>
+<vertex x="-2" y="0.0455625" curve="45"/>
+<vertex x="-1.96778125" y="-0.03221875"/>
+<vertex x="-1.207125" y="-0.792875" curve="94.580243"/>
+<vertex x="-1.17429375" y="-0.7915625"/>
+<vertex x="-0.969971875" y="-0.55170625" curve="69.025448"/>
+<vertex x="-0.9673625" y="-0.526503125"/>
+<vertex x="-1.02" y="-0.43"/>
+<vertex x="-1.06" y="-0.3"/>
+<vertex x="-1.504290625" y="-0.246684375" curve="-83.163001"/>
+<vertex x="-1.56" y="-0.183890625"/>
+<vertex x="-1.56" y="0.177896875" curve="-83.157023"/>
+<vertex x="-1.498340625" y="0.2474"/>
+<vertex x="-1.06" y="0.3"/>
+<vertex x="-1.02" y="0.43"/>
+<vertex x="-0.96" y="0.54"/>
+<vertex x="-1.244334375" y="0.8831625" curve="-84.642207"/>
+<vertex x="-1.2402875" y="0.9697125"/>
+<vertex x="-0.97245625" y="1.23754375" curve="-83.658975"/>
+<vertex x="-0.883115625" y="1.24249375"/>
+<vertex x="-0.53" y="0.96"/>
+<vertex x="-0.43" y="1.02"/>
+<vertex x="-0.3" y="1.06"/>
+<vertex x="-0.246428125" y="1.50643125" curve="-83.157227"/>
+<vertex x="-0.1860375" y="1.56"/>
+<vertex x="0.18676875" y="1.56" curve="-83.144072"/>
+<vertex x="0.246340625" y="1.5071625"/>
+<vertex x="0.3" y="1.06"/>
+<vertex x="0.44" y="1.02"/>
+<vertex x="0.54" y="0.96"/>
+<vertex x="0.883003125" y="1.2414375" curve="-84.368471"/>
+<vertex x="0.9729875" y="1.2370125"/>
+<vertex x="1.2346875" y="0.9753125" curve="-84.366908"/>
+<vertex x="1.239353125" y="0.8804625"/>
+<vertex x="0.96" y="0.54"/>
+<vertex x="1.02" y="0.42"/>
+<vertex x="1.06" y="0.3"/>
+<vertex x="1.496325" y="0.25636875" curve="-84.302068"/>
+<vertex x="1.56" y="0.186009375"/>
+<vertex x="1.56" y="-0.194953125" curve="-84.288821"/>
+<vertex x="1.505228125" y="-0.255478125"/>
+<vertex x="1.06" y="-0.3"/>
+<vertex x="1.02" y="-0.42"/>
+<vertex x="0.970215625" y="-0.51956875" curve="64.723662"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Aesthetics">
@@ -1956,11 +2034,12 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R3" library="adafruit" package="R1206" value="330" x="40.64" y="40.64" smashed="yes" rot="MR180">
 <attribute name="NAME" x="39.71925" y="42.672" size="0.8128" layer="26" rot="MR180"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="37.465" y="23.495" rot="R90"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="96.2025" y="44.92625" rot="MR270"/>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="POWERPAK1212-8" value="SI7112DN" x="67.31" y="42.545" smashed="yes" rot="MR180">
 <attribute name="PROD_ID" value="TRANS-11055" x="67.31" y="42.545" size="1.016" layer="28" ratio="12" rot="MR180" display="off"/>
 <attribute name="NAME" x="66.32575" y="40.54475" size="0.8128" layer="26" rot="MR180"/>
 </element>
+<element name="U$1" library="zortness" package="OSAEROSPACE_V" value="OSAEROSPACEVECTOR" x="63.5" y="15.875" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2117,8 +2196,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="102.5525" y="8.255" extent="1-16" drill="0.3302"/>
 <via x="95.885" y="23.8125" extent="1-16" drill="0.3302"/>
 <via x="80.01" y="8.255" extent="1-16" drill="0.3302"/>
-<via x="68.2625" y="13.335" extent="1-16" drill="0.3302"/>
-<via x="56.8325" y="17.78" extent="1-16" drill="0.3302"/>
+<via x="71.4375" y="11.43" extent="1-16" drill="0.3302"/>
+<via x="56.1975" y="17.78" extent="1-16" drill="0.3302"/>
 <via x="27.78125" y="24.92375" extent="1-16" drill="0.3302"/>
 <via x="24.92375" y="20.0025" extent="1-16" drill="0.3302"/>
 <via x="75.2475" y="52.705" extent="1-16" drill="0.3302"/>

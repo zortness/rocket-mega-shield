@@ -59,7 +59,7 @@ Passives
 Electromechanical
 -----------------
 * [DPDT Switch](http://www.digikey.com/product-detail/en/EG1390A/EG4632CT-ND/1950621): *$0.58*
-* [JST-2 connector](http://www.digikey.com/product-detail/en/S2B-XH-A(LF)(SN)/455-2257-ND/1651055): *$0.16*
+* [JST-2 connector](http://www.digikey.com/product-detail/en/S2B-XH-A(LF\)(SN\)/455-2257-ND/1651055): *$0.16*
 * [Momentary Switch SMD](http://www.digikey.com/product-detail/en/KMR231NG%20LFS/CKN10246CT-ND/2176497): *$0.55*
 * [6-port terminal block](http://www.digikey.com/product-detail/en/282834-6/A98337-ND/1153267): *$2.94*
 * [MicroSD Socket](http://www.digikey.com/product-detail/en/693071010811/732-3819-1-ND/3124603): *$2.38*
