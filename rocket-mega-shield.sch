@@ -129,35 +129,6 @@
 <libraries>
 <library name="adafruit">
 <packages>
-<package name="XBEE">
-<wire x1="-12.5" y1="-14" x2="12.5" y2="-14" width="0.127" layer="21"/>
-<wire x1="12.5" y1="-14" x2="12.5" y2="7" width="0.127" layer="21"/>
-<wire x1="12.5" y1="7" x2="4.5" y2="13.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="13.5" x2="-5" y2="13.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="13.5" x2="-12.5" y2="7" width="0.127" layer="21"/>
-<wire x1="-12.5" y1="7" x2="-12.5" y2="-14" width="0.127" layer="21"/>
-<pad name="10" x="-11" y="-12.5" drill="0.7" diameter="1.4224"/>
-<pad name="9" x="-11" y="-10.5" drill="0.7" diameter="1.4224"/>
-<pad name="8" x="-11" y="-8.5" drill="0.7" diameter="1.4224"/>
-<pad name="7" x="-11" y="-6.5" drill="0.7" diameter="1.4224"/>
-<pad name="6" x="-11" y="-4.5" drill="0.7" diameter="1.4224"/>
-<pad name="5" x="-11" y="-2.5" drill="0.7" diameter="1.4224"/>
-<pad name="4" x="-11" y="-0.5" drill="0.7" diameter="1.4224"/>
-<pad name="3" x="-11" y="1.5" drill="0.7" diameter="1.4224"/>
-<pad name="2" x="-11" y="3.5" drill="0.7" diameter="1.4224"/>
-<pad name="1" x="-11" y="5.5" drill="0.7" diameter="1.4224" shape="square"/>
-<pad name="11" x="11" y="-12.5" drill="0.7" diameter="1.4224"/>
-<pad name="12" x="11" y="-10.5" drill="0.7" diameter="1.4224"/>
-<pad name="13" x="11" y="-8.5" drill="0.7" diameter="1.4224"/>
-<pad name="14" x="11" y="-6.5" drill="0.7" diameter="1.4224"/>
-<pad name="15" x="11" y="-4.5" drill="0.7" diameter="1.4224"/>
-<pad name="16" x="11" y="-2.5" drill="0.7" diameter="1.4224"/>
-<pad name="17" x="11" y="-0.5" drill="0.7" diameter="1.4224"/>
-<pad name="18" x="11" y="1.5" drill="0.7" diameter="1.4224"/>
-<pad name="19" x="11" y="3.5" drill="0.7" diameter="1.4224"/>
-<pad name="20" x="11" y="5.5" drill="0.7" diameter="1.4224"/>
-<text x="-3" y="-16" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="FGPMMOPA6H">
 <wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
 <wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="21"/>
@@ -3145,36 +3116,6 @@ type 0309, grid 2.5 mm</description>
 </package>
 </packages>
 <symbols>
-<symbol name="XBEE">
-<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-15.24" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-15.24" x2="20.32" y2="12.7" width="0.254" layer="94"/>
-<wire x1="20.32" y1="12.7" x2="10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="22.86" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="22.86" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
-<text x="-2.54" y="17.78" size="1.9304" layer="94">XBee</text>
-<text x="-2.54" y="-17.78" size="1.9304" layer="95">&gt;NAME</text>
-<pin name="VCC" x="-22.86" y="10.16" length="middle" direction="sup"/>
-<pin name="DOUT" x="-22.86" y="7.62" length="middle" direction="out"/>
-<pin name="DIN" x="-22.86" y="5.08" length="middle" direction="in"/>
-<pin name="DO8" x="-22.86" y="2.54" length="middle" direction="out"/>
-<pin name="RESET" x="-22.86" y="0" length="middle" direction="in"/>
-<pin name="PWM0/RSSI" x="-22.86" y="-2.54" length="middle" direction="out"/>
-<pin name="PWM1" x="-22.86" y="-5.08" length="middle" direction="out"/>
-<pin name="RESERVED" x="-22.86" y="-7.62" length="middle" direction="nc"/>
-<pin name="DTR/DI8" x="-22.86" y="-10.16" length="middle" direction="in"/>
-<pin name="GND" x="-22.86" y="-12.7" length="middle" direction="sup"/>
-<pin name="AD4/DIO4" x="25.4" y="-12.7" length="middle" rot="R180"/>
-<pin name="CTS/DIO7" x="25.4" y="-10.16" length="middle" rot="R180"/>
-<pin name="ON/SLEEP" x="25.4" y="-7.62" length="middle" direction="out" rot="R180"/>
-<pin name="VREF" x="25.4" y="-5.08" length="middle" direction="in" rot="R180"/>
-<pin name="ASC/AD5/DIO5" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="RTS/AD6/DIO6" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="AD3/DIO3" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="AD2/DIO2" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="AD1/DIO1" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="AD0/DIO0" x="25.4" y="10.16" length="middle" rot="R180"/>
-</symbol>
 <symbol name="FGPMMOPA6H">
 <wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
 <wire x1="12.7" y1="20.32" x2="12.7" y2="12.7" width="0.254" layer="94"/>
@@ -3241,40 +3182,6 @@ type 0309, grid 2.5 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="XBEE">
-<gates>
-<gate name="G$1" symbol="XBEE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XBEE">
-<connects>
-<connect gate="G$1" pin="AD0/DIO0" pad="20"/>
-<connect gate="G$1" pin="AD1/DIO1" pad="19"/>
-<connect gate="G$1" pin="AD2/DIO2" pad="18"/>
-<connect gate="G$1" pin="AD3/DIO3" pad="17"/>
-<connect gate="G$1" pin="AD4/DIO4" pad="11"/>
-<connect gate="G$1" pin="ASC/AD5/DIO5" pad="15"/>
-<connect gate="G$1" pin="CTS/DIO7" pad="12"/>
-<connect gate="G$1" pin="DIN" pad="3"/>
-<connect gate="G$1" pin="DO8" pad="4"/>
-<connect gate="G$1" pin="DOUT" pad="2"/>
-<connect gate="G$1" pin="DTR/DI8" pad="9"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="ON/SLEEP" pad="13"/>
-<connect gate="G$1" pin="PWM0/RSSI" pad="6"/>
-<connect gate="G$1" pin="PWM1" pad="7"/>
-<connect gate="G$1" pin="RESERVED" pad="8"/>
-<connect gate="G$1" pin="RESET" pad="5"/>
-<connect gate="G$1" pin="RTS/AD6/DIO6" pad="16"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VREF" pad="14"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GPS_FGPMMOPA6H" prefix="U" uservalue="yes">
 <description>&lt;b&gt;GPS Module&lt;/b&gt; - MTK MT3339 Chipset, -165dBm sensitivity, 22 channels, 10Hz, auto-select external antenna options</description>
 <gates>
@@ -9146,6 +9053,33 @@ Pad for KMR 2-Series tactile switches.&lt;br/&gt;
 <vertex x="0.970215625" y="-0.51956875" curve="64.723662"/>
 </polygon>
 </package>
+<package name="XBEE">
+<wire x1="12.5" y1="1.24" x2="12.5" y2="7" width="0.127" layer="21"/>
+<wire x1="12.5" y1="7" x2="10.85" y2="8.42" width="0.127" layer="21"/>
+<wire x1="-10.715" y1="8.42" x2="-12.5" y2="7" width="0.127" layer="21"/>
+<wire x1="-12.5" y1="7" x2="-12.5" y2="1.24" width="0.127" layer="21"/>
+<pad name="10" x="-11" y="-12.5" drill="0.7" diameter="1.4224"/>
+<pad name="9" x="-11" y="-10.5" drill="0.7" diameter="1.4224"/>
+<pad name="8" x="-11" y="-8.5" drill="0.7" diameter="1.4224"/>
+<pad name="7" x="-11" y="-6.5" drill="0.7" diameter="1.4224"/>
+<pad name="6" x="-11" y="-4.5" drill="0.7" diameter="1.4224"/>
+<pad name="5" x="-11" y="-2.5" drill="0.7" diameter="1.4224"/>
+<pad name="4" x="-11" y="-0.5" drill="0.7" diameter="1.4224"/>
+<pad name="3" x="-11" y="1.5" drill="0.7" diameter="1.4224"/>
+<pad name="2" x="-11" y="3.5" drill="0.7" diameter="1.4224"/>
+<pad name="1" x="-11" y="5.5" drill="0.7" diameter="1.4224" shape="square"/>
+<pad name="11" x="11" y="-12.5" drill="0.7" diameter="1.4224"/>
+<pad name="12" x="11" y="-10.5" drill="0.7" diameter="1.4224"/>
+<pad name="13" x="11" y="-8.5" drill="0.7" diameter="1.4224"/>
+<pad name="14" x="11" y="-6.5" drill="0.7" diameter="1.4224"/>
+<pad name="15" x="11" y="-4.5" drill="0.7" diameter="1.4224"/>
+<pad name="16" x="11" y="-2.5" drill="0.7" diameter="1.4224"/>
+<pad name="17" x="11" y="-0.5" drill="0.7" diameter="1.4224"/>
+<pad name="18" x="11" y="1.5" drill="0.7" diameter="1.4224"/>
+<pad name="19" x="11" y="3.5" drill="0.7" diameter="1.4224"/>
+<pad name="20" x="11" y="5.5" drill="0.7" diameter="1.4224"/>
+<text x="-3" y="-16" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL377">
@@ -9403,6 +9337,36 @@ Pad for KMR 2-Series tactile switches.&lt;br/&gt;
 <vertex x="5.842" y="-0.762"/>
 </polygon>
 <text x="-11.43" y="-9.144" size="1.27" layer="94">Open Source Aerospace</text>
+</symbol>
+<symbol name="XBEE">
+<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-15.24" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-15.24" x2="20.32" y2="12.7" width="0.254" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="22.86" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="17.78" size="1.9304" layer="94">XBee</text>
+<text x="-2.54" y="-17.78" size="1.9304" layer="95">&gt;NAME</text>
+<pin name="VCC" x="-22.86" y="10.16" length="middle" direction="sup"/>
+<pin name="DOUT" x="-22.86" y="7.62" length="middle" direction="out"/>
+<pin name="DIN" x="-22.86" y="5.08" length="middle" direction="in"/>
+<pin name="DO8" x="-22.86" y="2.54" length="middle" direction="out"/>
+<pin name="RESET" x="-22.86" y="0" length="middle" direction="in"/>
+<pin name="PWM0/RSSI" x="-22.86" y="-2.54" length="middle" direction="out"/>
+<pin name="PWM1" x="-22.86" y="-5.08" length="middle" direction="out"/>
+<pin name="RESERVED" x="-22.86" y="-7.62" length="middle" direction="nc"/>
+<pin name="DTR/DI8" x="-22.86" y="-10.16" length="middle" direction="in"/>
+<pin name="GND" x="-22.86" y="-12.7" length="middle" direction="sup"/>
+<pin name="AD4/DIO4" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="CTS/DIO7" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="ON/SLEEP" x="25.4" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="VREF" x="25.4" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="ASC/AD5/DIO5" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="RTS/AD6/DIO6" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="AD3/DIO3" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="AD2/DIO2" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="AD1/DIO1" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="AD0/DIO0" x="25.4" y="10.16" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9807,6 +9771,40 @@ SMT- SWCH-08247</description>
 </technologies>
 </device>
 <device name="VECTOR" package="OSAEROSPACE_V">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XBEE">
+<gates>
+<gate name="G$1" symbol="XBEE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XBEE">
+<connects>
+<connect gate="G$1" pin="AD0/DIO0" pad="20"/>
+<connect gate="G$1" pin="AD1/DIO1" pad="19"/>
+<connect gate="G$1" pin="AD2/DIO2" pad="18"/>
+<connect gate="G$1" pin="AD3/DIO3" pad="17"/>
+<connect gate="G$1" pin="AD4/DIO4" pad="11"/>
+<connect gate="G$1" pin="ASC/AD5/DIO5" pad="15"/>
+<connect gate="G$1" pin="CTS/DIO7" pad="12"/>
+<connect gate="G$1" pin="DIN" pad="3"/>
+<connect gate="G$1" pin="DO8" pad="4"/>
+<connect gate="G$1" pin="DOUT" pad="2"/>
+<connect gate="G$1" pin="DTR/DI8" pad="9"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="ON/SLEEP" pad="13"/>
+<connect gate="G$1" pin="PWM0/RSSI" pad="6"/>
+<connect gate="G$1" pin="PWM1" pad="7"/>
+<connect gate="G$1" pin="RESERVED" pad="8"/>
+<connect gate="G$1" pin="RESET" pad="5"/>
+<connect gate="G$1" pin="RTS/AD6/DIO6" pad="16"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VREF" pad="14"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13530,7 +13528,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </class>
 </classes>
 <parts>
-<part name="J3" library="adafruit" deviceset="XBEE" device=""/>
+<part name="J3" library="zortness" deviceset="XBEE" device=""/>
 <part name="J4" library="zortness" deviceset="MICROSD" device=""/>
 <part name="U3" library="adafruit" deviceset="GPS_FGPMMOPA6H" device="" value="FGPMMOPA6H"/>
 <part name="U6" library="kurt" deviceset="L3GD20" device="" value="L3GD20TR"/>
