@@ -13708,15 +13708,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="27.94" y1="71.12" x2="27.94" y2="114.3" width="0.1524" layer="97"/>
 <wire x1="27.94" y1="114.3" x2="-30.48" y2="114.3" width="0.1524" layer="97"/>
 <text x="-27.94" y="109.22" size="1.778" layer="97">LED Bank 1</text>
-<wire x1="-147.32" y1="15.24" x2="-147.32" y2="12.7" width="0.1524" layer="97"/>
+<wire x1="-147.32" y1="16.51" x2="-147.32" y2="12.7" width="0.1524" layer="97"/>
 <wire x1="-147.32" y1="12.7" x2="-147.32" y2="10.16" width="0.1524" layer="97"/>
 <wire x1="-162.56" y1="12.7" x2="-147.32" y2="12.7" width="0.1524" layer="97"/>
 <text x="-163.322" y="13.208" size="1.778" layer="97">200G Accel</text>
-<wire x1="-147.32" y1="7.62" x2="-147.32" y2="5.08" width="0.1524" layer="97"/>
-<wire x1="-147.32" y1="5.08" x2="-147.32" y2="0" width="0.1524" layer="97"/>
-<wire x1="-147.32" y1="5.08" x2="-162.56" y2="5.08" width="0.1524" layer="97"/>
-<text x="-162.052" y="5.842" size="1.778" layer="97">Continuity</text>
-<text x="-162.56" y="-2.54" size="1.778" layer="97">Batt Voltage</text>
+<wire x1="-147.32" y1="26.67" x2="-147.32" y2="24.13" width="0.1524" layer="97"/>
+<wire x1="-147.32" y1="24.13" x2="-147.32" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="-147.32" y1="24.13" x2="-162.56" y2="24.13" width="0.1524" layer="97"/>
+<text x="-162.052" y="24.892" size="1.778" layer="97">Continuity</text>
+<text x="-163.83" y="7.62" size="1.778" layer="97">Batt Voltage</text>
 <text x="35.56" y="33.02" size="1.778" layer="97">Buzzer</text>
 <wire x1="33.02" y1="35.56" x2="33.02" y2="0" width="0.1524" layer="97"/>
 <wire x1="33.02" y1="0" x2="88.9" y2="0" width="0.1524" layer="97"/>
@@ -13724,6 +13724,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="88.9" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="97"/>
 <text x="-140.97" y="121.92" size="1.778" layer="97" font="vector">Designed by Kurtis Kopf</text>
 <text x="-140.97" y="119.38" size="1.778" layer="97" font="vector">OpenSourceAerospace.com</text>
+<wire x1="-147.32" y1="6.35" x2="-147.32" y2="-2.54" width="0.1524" layer="97"/>
+<text x="-160.02" y="0" size="1.778" layer="97">Disabled
+on Due</text>
 </plain>
 <instances>
 <instance part="J3" gate="G$1" x="-91.44" y="-99.06"/>
@@ -14966,6 +14969,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-124.46" y1="25.4" x2="-144.78" y2="25.4" width="0.1524" layer="91"/>
 <label x="-144.78" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="RA4" gate="G$1" pin="D1"/>
+<wire x1="35.56" y1="-78.74" x2="33.02" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="RA3" gate="G$1" pin="D2"/>
+<wire x1="33.02" y1="-78.74" x2="7.62" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-81.28" x2="33.02" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="33.02" y="-78.74"/>
+<label x="5.08" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MEGAA5" class="0">
 <segment>
@@ -14973,12 +14985,30 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-124.46" y1="22.86" x2="-144.78" y2="22.86" width="0.1524" layer="91"/>
 <label x="-144.78" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="RA4" gate="G$1" pin="C1"/>
+<wire x1="35.56" y1="-73.66" x2="27.94" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="RA3" gate="G$1" pin="C2"/>
+<wire x1="27.94" y1="-73.66" x2="7.62" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-81.28" x2="27.94" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="27.94" y="-73.66"/>
+<label x="5.08" y="-73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MEGAA6" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="A6"/>
 <wire x1="-124.46" y1="20.32" x2="-144.78" y2="20.32" width="0.1524" layer="91"/>
 <label x="-144.78" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RA4" gate="G$1" pin="B1"/>
+<wire x1="35.56" y1="-68.58" x2="22.86" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="RA3" gate="G$1" pin="B2"/>
+<wire x1="22.86" y1="-68.58" x2="7.62" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-81.28" x2="22.86" y2="-68.58" width="0.1524" layer="91"/>
+<junction x="22.86" y="-68.58"/>
+<label x="5.08" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX2" class="0">
@@ -15027,6 +15057,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="J2" gate="G$1" pin="A7"/>
 <wire x1="-124.46" y1="17.78" x2="-144.78" y2="17.78" width="0.1524" layer="91"/>
 <label x="-144.78" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RA4" gate="G$1" pin="A1"/>
+<wire x1="35.56" y1="-63.5" x2="17.78" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="RA3" gate="G$1" pin="A2"/>
+<wire x1="17.78" y1="-63.5" x2="7.62" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-81.28" x2="17.78" y2="-63.5" width="0.1524" layer="91"/>
+<junction x="17.78" y="-63.5"/>
+<label x="5.08" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGAA8" class="0">
@@ -15083,13 +15122,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="-144.78" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RA4" gate="G$1" pin="D1"/>
-<wire x1="35.56" y1="-78.74" x2="33.02" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="RA3" gate="G$1" pin="D2"/>
-<wire x1="33.02" y1="-78.74" x2="7.62" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-81.28" x2="33.02" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="33.02" y="-78.74"/>
-<label x="5.08" y="-78.74" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-101.6" y1="83.82" x2="-99.06" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="83.82" x2="-93.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="83.82" x2="-99.06" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-99.06" y="83.82"/>
+<label x="-99.06" y="73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="MEGAA12" class="0">
@@ -15098,30 +15137,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-124.46" y1="5.08" x2="-144.78" y2="5.08" width="0.1524" layer="91"/>
 <label x="-144.78" y="5.08" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="RA4" gate="G$1" pin="C1"/>
-<wire x1="35.56" y1="-73.66" x2="27.94" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="RA3" gate="G$1" pin="C2"/>
-<wire x1="27.94" y1="-73.66" x2="7.62" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-81.28" x2="27.94" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="27.94" y="-73.66"/>
-<label x="5.08" y="-73.66" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MEGAA13" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="A13"/>
 <wire x1="-124.46" y1="2.54" x2="-144.78" y2="2.54" width="0.1524" layer="91"/>
 <label x="-144.78" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="RA4" gate="G$1" pin="B1"/>
-<wire x1="35.56" y1="-68.58" x2="22.86" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="RA3" gate="G$1" pin="B2"/>
-<wire x1="22.86" y1="-68.58" x2="7.62" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="-81.28" x2="22.86" y2="-68.58" width="0.1524" layer="91"/>
-<junction x="22.86" y="-68.58"/>
-<label x="5.08" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MEGAA14" class="0">
@@ -15130,30 +15151,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-124.46" y1="0" x2="-144.78" y2="0" width="0.1524" layer="91"/>
 <label x="-144.78" y="0" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="RA4" gate="G$1" pin="A1"/>
-<wire x1="35.56" y1="-63.5" x2="17.78" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="RA3" gate="G$1" pin="A2"/>
-<wire x1="17.78" y1="-63.5" x2="7.62" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-81.28" x2="17.78" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="17.78" y="-63.5"/>
-<label x="5.08" y="-63.5" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MEGAA15" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="A15"/>
 <wire x1="-124.46" y1="-2.54" x2="-144.78" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-144.78" y="-2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-101.6" y1="83.82" x2="-99.06" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="83.82" x2="-93.98" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="83.82" x2="-99.06" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-99.06" y="83.82"/>
-<label x="-99.06" y="73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -15197,4 +15200,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
