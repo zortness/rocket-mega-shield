@@ -1,9 +1,9 @@
 Rocket Mega Shield Revision 2
 =============================
 
-![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2.1/board.png)
-![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2.1/board_fill.png)
-![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2.1/schematic.png)
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/master/render/rev2.1/board.png)
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/master/render/rev2.1/board_fill.png)
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/master/render/rev2.1/schematic.png)
 
 These are the Eagle files for an Arduino Mega shield with sensors and features needed by aviation and rocketry enthusiasts. 
 The board is also designed to be extremely easy to use for any hobbyist application. 
@@ -49,8 +49,8 @@ Features
 * -- MOSFET controlled, attached to PWM pin 8
 * Lots of pretty flashing lights
 
-See the [Bill of Materials](https://github.com/zortness/rocket-mega-shield/blob/rev2/bom.md)
-and [parts manifest](https://github.com/zortness/rocket-mega-shield/blob/rev2/manifest.txt)
+See the [Bill of Materials](https://github.com/zortness/rocket-mega-shield/blob/master/bom.md)
+and [parts manifest](https://github.com/zortness/rocket-mega-shield/blob/master/manifest.txt)
 for more information.
 
 
