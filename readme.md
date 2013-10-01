@@ -1,9 +1,9 @@
 Rocket Mega Shield Revision 2
 =============================
 
-![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2/board.png)
-![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2/board_fill.png)
-![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2/schematic.png)
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2.1/board.png)
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2.1/board_fill.png)
+![rendering](https://raw.github.com/zortness/rocket-mega-shield/rev2/render/rev2.1/schematic.png)
 
 These are the Eagle files for an Arduino Mega shield with sensors and features needed by aviation and rocketry enthusiasts. 
 The board is also designed to be extremely easy to use for any hobbyist application. 
@@ -56,14 +56,19 @@ for more information.
 
 Versions
 --------
+* RocketMega Revision 2.1 - Third prototype, only pin and routing changes from R2 for Due compatability
+* RocketMega Revision 2 - Second prototype board, intended for wider production, August 2013
 * RocketDuino Revision 1 - Initial prototype board, June 2013 
-* (unnamed) Revision 2 - Second prototype board, intended for wider production, August 2013
 
 
 Prototype Images
 ----------------
+Revision 2
+
+![R2](https://raw.github.com/zortness/rocket-mega-shield/master/render/rev2/r2.jpg)
+
+
 Revision 1
 
-
-![protov1a](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_1.jpg)
-![protov1b](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_2.jpg)
+![R1_a](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_1.jpg)
+![R1_b](https://raw.github.com/zortness/rocket-mega-shield/master/render/v1/v1_2.jpg)
